@@ -46,14 +46,13 @@ export function Hero() {
             />
             <div className="relative">
               <p className="inline bg-gradient-to-r from-teal-200 via-teal-400 to-teal-200 bg-clip-text font-display text-5xl tracking-tight text-transparent">
-                Des indicateurs pour l'agriculture de demain.
+                Pour une évaluation objective des pratiques agricoles
               </p>
               <p className="mt-3 text-2xl tracking-tight text-slate-400">
-                Evaluer chaque aspect de votre exploitation de manière simple,
-                transparente et effiace.
+                Aidez à faire la lumière sur les indicateurs pertinents
               </p>
               <div className="mt-8 flex gap-4 md:justify-center lg:justify-start">
-                <Button href="/">Commencer</Button>
+                <Button href="/infos/participer">Participer</Button>
                 <Button href="/" variant="secondary">
                   En savoir plus
                 </Button>

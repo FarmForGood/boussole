@@ -1,5 +1,7 @@
 import { Callout } from '@/components/Callout'
 import { QuickLink, QuickLinks } from '@/components/QuickLinks'
+import { ContactForm } from '@/components/ContactForm'
+import { CompassIcon } from '@/components/icons/CompassIcon'
 
 const tags = {
   callout: {
@@ -13,6 +15,18 @@ const tags = {
       },
     },
     render: Callout,
+  },
+  contact: {
+    attributes: {},
+    render: ContactForm,
+  },
+  compass: {
+    attributes: {
+      quarter: { type: String },
+      color: { type: String },
+      inline: { type: String },
+    },
+    render: CompassIcon,
   },
   figure: {
     selfClosing: true,
@@ -37,6 +51,7 @@ const tags = {
     render: QuickLink,
     attributes: {
       title: { type: String },
+      quarter: { type: String },
       description: { type: String },
       icon: { type: String },
       href: { type: String },

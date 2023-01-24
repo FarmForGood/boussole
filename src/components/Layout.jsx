@@ -16,39 +16,38 @@ const navigation = [
     title: 'Présentation',
     links: [
       { title: 'A propos', href: '/' },
-      { title: 'Les indicateurs', href: '/docs/installation' },
+      { title: 'Participer', href: '/infos/participer' },
     ],
   },
   {
     title: 'Sols Vivants',
     links: [
-      { title: 'Bilan humique', href: '/docs/understanding-caching' },
+      { title: 'Présentation', href: '/docs/solsvivants/presentation' },
+      { title: 'Bilan humique', href: '/docs/solsvivants/bilanhumique' },
       {
         title: 'Couverture du sol',
-        href: '/docs/predicting-user-behavior',
+        href: '/docs/solsvivants/couverture',
       },
       {
         title: 'Simplification du travail du sol',
-        href: '/docs/basics-of-time-travel',
+        href: '/docs/solsvivants/simplification',
       },
       {
         title: 'Diversité de cultures',
-        href: '/docs/introduction-to-string-theory',
+        href: '/docs/solsvivants/diversite',
       },
     ],
   },
   {
-    title: 'Advanced guides',
+    title: 'Biodiversité et Eau',
     links: [
-      { title: 'Writing plugins', href: '/docs/writing-plugins' },
-      { title: 'Neuralink integration', href: '/docs/neuralink-integration' },
-      { title: 'Temporal paradoxes', href: '/docs/temporal-paradoxes' },
-      { title: 'Testing', href: '/docs/testing' },
-      { title: 'Compile-time caching', href: '/docs/compile-time-caching' },
       {
-        title: 'Predictive data generation',
-        href: '/docs/predictive-data-generation',
+        title: "Progression vers l'AB",
+        href: '/docs/biodiversite/progressionab',
       },
+      { title: 'Mailage écologique', href: '/docs/neuralink-integration' },
+      { title: 'Fragmentation spatiale', href: '/docs/temporal-paradoxes' },
+      { title: "Résistance au lessivage de l'N", href: '/docs/testing' },
     ],
   },
   {
@@ -226,7 +225,7 @@ export function Layout({ children, title, tableOfContents }) {
             {previousPage && (
               <div>
                 <dt className="font-display text-sm font-medium text-slate-900 dark:text-white">
-                  Previous
+                  Précedent
                 </dt>
                 <dd className="mt-1">
                   <Link
@@ -241,7 +240,7 @@ export function Layout({ children, title, tableOfContents }) {
             {nextPage && (
               <div className="ml-auto text-right">
                 <dt className="font-display text-sm font-medium text-slate-900 dark:text-white">
-                  Next
+                  Suivant
                 </dt>
                 <dd className="mt-1">
                   <Link
@@ -263,7 +262,7 @@ export function Layout({ children, title, tableOfContents }) {
                   id="on-this-page-title"
                   className="font-display text-sm font-medium text-slate-900 dark:text-white"
                 >
-                  On this page
+                  Sur cette page
                 </h2>
                 <ol role="list" className="mt-4 space-y-3 text-sm">
                   {tableOfContents.map((section) => (
