@@ -2,6 +2,7 @@ import { Callout } from '@/components/Callout'
 import { QuickLink, QuickLinks } from '@/components/QuickLinks'
 import { ContactForm } from '@/components/ContactForm'
 import { CompassIcon } from '@/components/icons/CompassIcon'
+import { Math } from '@/components/Math'
 
 const tags = {
   callout: {
@@ -27,6 +28,12 @@ const tags = {
       inline: { type: String },
     },
     render: CompassIcon,
+  },
+  math: {
+    attributes: {
+      expression: { type: String },
+    },
+    render: Math,
   },
   figure: {
     selfClosing: true,

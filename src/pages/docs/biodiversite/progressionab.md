@@ -12,13 +12,13 @@ transition.
 
 Le calcul est exprimé en %
 
-```math
-(Surface déclaré en AB) ou (surface en transition vers l’AB)
+Avec:
 
-divisé par
+- _sau_: Surface Agricole Utile
+- _surfaceab_: Surface en AB
+- _progab_: Progression vers l’AB
 
-Surface Agricole Utile (SAU) Totale
-```
+{% math expression="prog_{ab} = surface_{ab} / sau" /%}
 
 ---
 
