@@ -1,7 +1,7 @@
 export function ContactForm() {
   return (
     <form
-      action="#"
+      action="https://formsubmit.co/b37f97ab9d8178c9dd7bde86adfb04e8"
       method="POST"
       className="mt-9 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8"
     >

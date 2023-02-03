@@ -15,8 +15,8 @@ Le calcul est exprimé en %
 Avec:
 
 - _sau_: Surface Agricole Utile
-- _surfaceab_: Surface en AB
-- _progab_: Progression vers l’AB
+- _surface_ab_: Surface en AB
+- _prog_ab_: Progression vers l’AB
 
 {% math expression="prog_{ab} = surface_{ab} / sau" /%}
 
