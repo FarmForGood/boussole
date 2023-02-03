@@ -50,9 +50,3 @@ Rejoignez un ou plusieurs groupes de travail :
 ## Qui sommes nous ?
 
 Un collectif d’associations qui soutiennent l'agriculture durable.
-
----
-
-## Financement
-
-Ce projet est financé par un mécénat offert par XX
