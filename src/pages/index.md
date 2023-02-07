@@ -28,7 +28,7 @@ Le projet Open Boussole est d'expliquer et de valider les modèles utilisés pou
 
 ## Comment ça marche ?
 
-- Rejoignez la communauté Open Boussole en vous inscrivant
+- Rejoignez la communauté Open Boussole [en vous inscrivant](/infos/participer)
 - Proposez un indicateur et/ou choisissez un indicateur auquel vous voulez contribuer
 - Choisissez le groupe de travail (vous pouvez participer à plusieurs groupes de travail)
 - Commencez à contribuer

@@ -23,18 +23,18 @@ const navigation = [
     title: 'Sols Vivants',
     links: [
       { title: 'Présentation', href: '/docs/solsvivants/presentation' },
-      { title: 'Bilan humique', href: '/docs/wip' },
+      { title: 'Bilan humique', href: '/docs/wip?0' },
       {
         title: 'Couverture du sol',
-        href: '/docs/wip',
+        href: '/docs/wip?1',
       },
       {
         title: 'Simplification du travail du sol',
-        href: '/docs/wip',
+        href: '/docs/wip?2',
       },
       {
         title: 'Diversité de cultures',
-        href: '/docs/wip',
+        href: '/docs/wip?3',
       },
     ],
   },
@@ -45,9 +45,9 @@ const navigation = [
         title: "Progression vers l'AB",
         href: '/docs/biodiversite/progressionab',
       },
-      { title: 'Mailage écologique', href: '/docs/wip' },
-      { title: 'Fragmentation spatiale', href: '/docs/wip' },
-      { title: "Résistance au lessivage de l'N", href: '/docs/wip' },
+      { title: 'Mailage écologique', href: '/docs/wip?4' },
+      { title: 'Fragmentation spatiale', href: '/docs/wip?5' },
+      { title: "Résistance au lessivage de l'N", href: '/docs/wip?6' },
     ],
   },
   {
@@ -55,21 +55,21 @@ const navigation = [
     links: [
       {
         title: "Autonomie alimentaire de l'élevage",
-        href: '/docs/wip',
+        href: '/docs/wip?7',
       },
-      { title: 'Cadre de vie', href: '/docs/wip' },
-      { title: 'Autonomie en azote', href: '/docs/wip' },
-      { title: 'Indépendance aux primes', href: '/docs/wip' },
-      { title: 'Indépendance énergétique', href: '/docs/wip' },
+      { title: 'Cadre de vie', href: '/docs/wip?7' },
+      { title: 'Autonomie en azote', href: '/docs/wip?8' },
+      { title: 'Indépendance aux primes', href: '/docs/wip?9' },
+      { title: 'Indépendance énergétique', href: '/docs/wip?10' },
     ],
   },
   {
     title: 'Rentabilité et Efficience',
     links: [
-      { title: 'Efficience des intrants', href: '/docs/wip' },
-      { title: 'Rendement SAU', href: '/docs/wip' },
-      { title: 'Marge brut moyenne des cultures', href: '/docs/wip' },
-      { title: 'Cout de production triticale ou blé', href: '/docs/wip' },
+      { title: 'Efficience des intrants', href: '/docs/wip?11' },
+      { title: 'Rendement SAU', href: '/docs/wip?12' },
+      { title: 'Marge brut moyenne des cultures', href: '/docs/wip?13' },
+      { title: 'Cout de production triticale ou blé', href: '/docs/wip?14' },
     ],
   },
 ]
