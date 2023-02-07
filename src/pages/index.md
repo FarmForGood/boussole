@@ -1,7 +1,7 @@
 ---
 title: Présentation
 pageTitle: Boussole - Indicateurs clés pour votre ferme.
-description: Une série d'indicateurs clairs et scientifique pour une agriculture durable
+description: Une série d'indicateurs clairs et scientifiques pour une agriculture durable
 ---
 
 L’évaluation objective des pratiques agricoles est essentielle pour guider nos choix. Les modèles utilisés pour calculer les indicateurs de performances sont souvent complexes et leur mise en œuvre pas accessible.
