@@ -44,7 +44,7 @@ En supposant les parcelles suivantes:
 ---
 
 - Orge
-- 8 ha
+- 9 ha
 
 ---
 
@@ -55,7 +55,7 @@ En supposant les parcelles suivantes:
 
 La fragmentation spatiale est de:
 
-{% math expression="fragmentation spatiale = (12 + 8) / 26 = 20 / 26 = 76%" size="xl" /%}
+{% math expression="fragmentation spatiale = (12 + 9) / 27 = 21 / 27 = 76%" size="xl" /%}
 
 ---
 
