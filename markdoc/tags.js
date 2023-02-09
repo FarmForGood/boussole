@@ -32,6 +32,7 @@ const tags = {
   math: {
     attributes: {
       expression: { type: String },
+      size: { type: String },
     },
     render: Math,
   },

@@ -45,7 +45,10 @@ const navigation = [
         href: '/docs/biodiversite/progressionab',
       },
       { title: 'Mailage écologique', href: '/docs/wip?4' },
-      { title: 'Fragmentation spatiale', href: '/docs/wip?5' },
+      {
+        title: 'Fragmentation spatiale',
+        href: '/docs/biodiversite/fragmentation-spatiale',
+      },
       { title: "Résistance au lessivage de l'N", href: '/docs/wip?6' },
     ],
   },
