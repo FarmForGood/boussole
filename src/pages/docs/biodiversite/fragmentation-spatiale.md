@@ -20,10 +20,10 @@ Le calcul est exprimé en %
 Avec:
 
 - _sau_: Surface Agricole Utile
-- _surface_>_8a_: Surface des parcelles supérieures à 8a
-- _fragmentation_spatiale_: Fragmentation spatiale
+- _surface_>=_8ha_: Surface des parcelles supérieures ou égale à 8ha
+- _fragmentation_ _spatiale_: Fragmentation spatiale
 
-{% math expression="fragmentation\\,spatiale = (surface_{>8a} / sau)" /%}
+{% math expression="fragmentation\\,spatiale = (surface_{\\geq8ha} / sau)" /%}
 
 ---
 
@@ -44,7 +44,7 @@ En supposant les parcelles suivantes:
 ---
 
 - Orge
-- 9 ha
+- 8 ha
 
 ---
 
@@ -55,7 +55,9 @@ En supposant les parcelles suivantes:
 
 La fragmentation spatiale est de:
 
-{% math expression="fragmentation\\,spatiale = (12 + 9) / 27 = 21 / 27 = 76\\%" size="xl" /%}
+{% math expression="fragmentation\\,spatiale = (12 + 8) / 26 = 20 / 26 = 76\\%" size="xl" /%}
+
+La parcelle d'orge est prise en compte vu que sa surface est supérieure ou égale à 8 ha.
 
 ---
 
