@@ -23,7 +23,7 @@ Avec:
 - _surface_>_8a_: Surface des parcelles supérieures à 8a
 - _fragmentation_spatiale_: Fragmentation spatiale
 
-{% math expression="fragmentation spatiale = (surface_{>8a} / sau)" /%}
+{% math expression="fragmentation\\,spatiale = (surface_{>8a} / sau)" /%}
 
 ---
 
@@ -55,7 +55,7 @@ En supposant les parcelles suivantes:
 
 La fragmentation spatiale est de:
 
-{% math expression="fragmentation spatiale = (12 + 9) / 27 = 21 / 27 = 76%" size="xl" /%}
+{% math expression="fragmentation\\,spatiale = (12 + 9) / 27 = 21 / 27 = 76\\%" size="xl" /%}
 
 ---
 
