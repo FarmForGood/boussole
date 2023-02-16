@@ -3,6 +3,7 @@ import { QuickLink, QuickLinks } from '@/components/QuickLinks'
 import { ContactForm } from '@/components/ContactForm'
 import { CompassIcon } from '@/components/icons/CompassIcon'
 import { Math } from '@/components/Math'
+import { DefinedWord } from '@/components/DefinedWord'
 
 const tags = {
   callout: {
@@ -35,6 +36,12 @@ const tags = {
       size: { type: String },
     },
     render: Math,
+  },
+  def: {
+    attributes: {
+      word: { type: String },
+    },
+    render: DefinedWord,
   },
   figure: {
     selfClosing: true,

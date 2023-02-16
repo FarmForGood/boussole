@@ -11,7 +11,7 @@ En terres cultivable de pleins champs, la biodiversité se développe plus facil
 
 ## Unité
 
-Pourcentage de la SAU
+Pourcentage de la {% def word="SAU" /%} en parcelles de plus de 8ha.
 
 ## Comment est-ce calculé ?
 
