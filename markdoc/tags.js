@@ -34,6 +34,7 @@ const tags = {
     attributes: {
       expression: { type: String },
       size: { type: String },
+      p: { type: String },
     },
     render: Math,
   },

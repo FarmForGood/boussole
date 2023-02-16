@@ -15,8 +15,8 @@ const navigation = [
   {
     title: 'Présentation',
     links: [
-      { title: 'A propos', href: '/' },
-      { title: 'Participer', href: '/infos/participer' },
+      { title: 'A propos', href: '/', status: 'info' },
+      { title: 'Participer', href: '/infos/participer', status: 'join' },
     ],
   },
   {
@@ -26,14 +26,17 @@ const navigation = [
       {
         title: 'Couverture du sol',
         href: '/docs/wip?1',
+        status: 'todo',
       },
       {
         title: 'Simplification du travail du sol',
         href: '/docs/wip?2',
+        status: 'todo',
       },
       {
         title: 'Diversité de cultures',
         href: '/docs/wip?3',
+        status: 'todo',
       },
     ],
   },
@@ -43,11 +46,13 @@ const navigation = [
       {
         title: "Progression vers l'AB",
         href: '/docs/biodiversite/progressionab',
+        status: 'done',
       },
       { title: 'Mailage écologique', href: '/docs/wip?4' },
       {
         title: 'Fragmentation spatiale',
         href: '/docs/biodiversite/fragmentation-spatiale',
+        status: 'wip',
       },
       { title: "Résistance au lessivage de l'N", href: '/docs/wip?6' },
     ],
@@ -70,7 +75,11 @@ const navigation = [
     links: [
       { title: 'Efficience des intrants', href: '/docs/wip?11' },
       { title: 'Rendement SAU', href: '/docs/wip?12' },
-      { title: 'Marge brut moyenne des cultures', href: '/docs/wip?13' },
+      {
+        title: 'Marge brut moyenne des cultures',
+        href: '/docs/rentabilite/marge-brute',
+        status: 'wip',
+      },
       { title: 'Cout de production triticale ou blé', href: '/docs/wip?14' },
     ],
   },
