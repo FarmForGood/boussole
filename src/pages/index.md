@@ -16,11 +16,11 @@ Le projet Open Boussole est d'expliquer et de valider les modèles utilisés pou
 
 {% quick-link title="Sols vivants" quarter="ne" href="/docs/solsvivants/bilanhumique" description="Durabilité du travail du sol." /%}
 
-{% quick-link title="Biodiversité et eau" quarter="nw" href="/docs/biodiversite/progressionab" description="Eléments de biodiversité." /%}
+{% quick-link title="Biodiversité et eau" quarter="se" href="/docs/biodiversite/progressionab" description="Eléments de biodiversité." /%}
 
 {% quick-link title="Autonomie et résilience" quarter="sw" href="/docs/wip" description="Mesures de l'autonomie." /%}
 
-{% quick-link title="Rentabilité et effience" quarter="se" href="/docs/wip" description="Indicateurs de rentabilité." /%}
+{% quick-link title="Rentabilité et effience" quarter="nw" href="/docs/wip" description="Indicateurs de rentabilité." /%}
 
 {% /quick-links %}
 
