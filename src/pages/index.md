@@ -53,3 +53,5 @@ Un collectif d'associations et d'entreprises agroalimentaires qui soutiennent l'
 
 ![bister](/logos/bister.png)
 ![puratos](/logos/puratos.svg)
+![dandoy](/logos/dandoy.jpg)
+![copains](/logos/copains.svg)
