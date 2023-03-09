@@ -4,6 +4,7 @@ import { ContactForm } from '@/components/ContactForm'
 import { CompassIcon } from '@/components/icons/CompassIcon'
 import { Math } from '@/components/Math'
 import { DefinedWord } from '@/components/DefinedWord'
+import PartnerLogos from '@/components/PartnerLogos'
 
 const tags = {
   callout: {
@@ -58,6 +59,9 @@ const tags = {
         <figcaption>{caption}</figcaption>
       </figure>
     ),
+  },
+  'logos': {
+    render: PartnerLogos,
   },
   'quick-links': {
     render: QuickLinks,

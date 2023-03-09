@@ -51,7 +51,4 @@ Rejoignez un ou plusieurs groupes de travail :
 
 Un collectif d'associations et d'entreprises agroalimentaires qui soutiennent l'agriculture durable.
 
-![bister](/logos/bister.png)
-![puratos](/logos/puratos.svg)
-![dandoy](/logos/dandoy.jpg)
-![copains](/logos/copains.svg)
+{% logos /%}
