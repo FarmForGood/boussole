@@ -1,3 +1,9 @@
+# Open Boussole
+
+Based on a TailwindUI template, hosted on [Vercel](https://vercel.com/vanakenm/boussole).
+
+Deploy happens on any push on <pre>main</pre>
+
 # Syntax
 
 Syntax is a [Tailwind UI](https://tailwindui.com) site template built using [Tailwind CSS](https://tailwindcss.com) and [Next.js](https://nextjs.org).
