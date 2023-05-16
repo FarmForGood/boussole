@@ -1,71 +1,53 @@
 ---
 title: Couverture du sol
-description: Quidem magni aut exercitationem maxime rerum eos.
+description: couverture des sols agricols de l’exploitation.
 ---
 
-Quasi sapiente voluptates aut minima non doloribus similique quisquam. In quo expedita ipsum nostrum corrupti incidunt. Et aut eligendi ea perferendis.
+## A propos de l'indicateur
 
----
+Nous utilisons l’indicateur pour comptabiliser la couverture des sols agricols de l’exploitation, enjeux d’érosion, qualité de l’eau , qualité du sol, intérêt de la production de biomasse perpétuel.
 
-## Quis vel iste dicta
-
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur.
-
-### Et pariatur ab quas
-
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur quaerat exercitationem. Consequatur et cum atque mollitia qui quia necessitatibus.
-
-```js
-/** @type {import('@tailwindlabs/lorem').ipsum} */
-export default {
-  lorem: 'ipsum',
-  dolor: ['sit', 'amet', 'consectetur'],
-  adipiscing: {
-    elit: true,
-  },
-}
-```
-
-Possimus saepe veritatis sint nobis et quam eos. Architecto consequatur odit perferendis fuga eveniet possimus rerum cumque. Ea deleniti voluptatum deserunt voluptatibus ut non iste. Provident nam asperiores vel laboriosam omnis ducimus enim nesciunt quaerat. Minus tempora cupiditate est quod.
-
-### Natus aspernatur iste
-
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur quaerat exercitationem. Consequatur et cum atque mollitia qui quia necessitatibus.
-
-Voluptas beatae omnis omnis voluptas. Cum architecto ab sit ad eaque quas quia distinctio. Molestiae aperiam qui quis deleniti soluta quia qui. Dolores nostrum blanditiis libero optio id. Mollitia ad et asperiores quas saepe alias.
+Exprimé en pourcentage de couverture annuel pour l’assolement (une duré est entre la récolte de la culture précédente et la récolte de la culture de l’année)
 
 ---
 
-## Quos porro ut molestiae
+## Mode de calcul
 
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur.
+Avec:
 
-### Voluptatem quas possimus
+- _CMoisson_: Couverture Moisson
+- _CCouvert_: Couverture Couvert
+- _CCulture_: Couverture Culture
+- _DRecolte_: Date de récolte de la culture
+- _DPréc_: Date de récolte de la culture précédente
 
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur quaerat exercitationem. Consequatur et cum atque mollitia qui quia necessitatibus.
+{% math expression="Couverture = \\frac {(CM + CCouvert + CCulture)} {(DRecolte - DPréc)}" p="6" /%}
 
-Possimus saepe veritatis sint nobis et quam eos. Architecto consequatur odit perferendis fuga eveniet possimus rerum cumque. Ea deleniti voluptatum deserunt voluptatibus ut non iste. Provident nam asperiores vel laboriosam omnis ducimus enim nesciunt quaerat. Minus tempora cupiditate est quod.
+### Couverture Moisson
 
-### Id vitae minima
+→ Si "Résidus broyés" = +21 jours
+→ Si "Pailles exportés" = + 0 jours
+→ Si "Double culture" = +21 jours
 
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur quaerat exercitationem. Consequatur et cum atque mollitia qui quia necessitatibus.
+### Couverture Couvert
 
-Voluptas beatae omnis omnis voluptas. Cum architecto ab sit ad eaque quas quia distinctio. Molestiae aperiam qui quis deleniti soluta quia qui. Dolores nostrum blanditiis libero optio id. Mollitia ad et asperiores quas saepe alias.
+→ Si ( TCS, Labour ou SD pour implantation du couvert) Alors [ -21 + ( date de destruction du couvert - date de semis du couvert ) ] ET Si valeur < 0 jour alors = 0 jour
 
----
+→ OU Si [ date de semis du couvert < date de récolte du précédent ] Alors [ - ( date de récolte précédent - date de semis du couvert ) ]
 
-## Vitae laborum maiores
+### Couverture Culture
 
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur.
+→ Si ( TCS, Labour ou SD pour implantation de la culture ) Alors [ ( date de récolte - date de semis ) -21jours ]
 
-### Corporis exercitationem
+→ ET Si [ date de semis de la culture < date de destruction du couvert] Alors [- (date destruction du couvert - date semis de la culture)]
 
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur quaerat exercitationem. Consequatur et cum atque mollitia qui quia necessitatibus.
+→ ET Si [date de semis de la culture < date de récolte du précédent] Alors [ - ( date de récolte du précédent - date de semis de la culture ) ]
 
-Possimus saepe veritatis sint nobis et quam eos. Architecto consequatur odit perferendis fuga eveniet possimus rerum cumque. Ea deleniti voluptatum deserunt voluptatibus ut non iste. Provident nam asperiores vel laboriosam omnis ducimus enim nesciunt quaerat. Minus tempora cupiditate est quod.
+## Origine des données
 
-### Reprehenderit magni
+Les données du 1° sont renseignées par l'agriculteur ou l'agronome.
 
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur quaerat exercitationem. Consequatur et cum atque mollitia qui quia necessitatibus.
+## Usage dans la boussole
 
-Voluptas beatae omnis omnis voluptas. Cum architecto ab sit ad eaque quas quia distinctio. Molestiae aperiam qui quis deleniti soluta quia qui. Dolores nostrum blanditiis libero optio id. Mollitia ad et asperiores quas saepe alias.
+- 0 → 65% de couverture de sol
+- 100 → 100% de couverture de sol

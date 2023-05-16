@@ -25,8 +25,8 @@ const navigation = [
       { title: 'Bilan humique', href: '/docs/wip?0' },
       {
         title: 'Couverture du sol',
-        href: '/docs/wip?1',
-        status: 'todo',
+        href: '/docs/solsvivants/couverture',
+        status: 'done',
       },
       {
         title: 'Simplification du travail du sol',
@@ -35,8 +35,8 @@ const navigation = [
       },
       {
         title: 'Diversité de cultures',
-        href: '/docs/wip?3',
-        status: 'todo',
+        href: '/docs/solsvivants/diversite',
+        status: 'done',
       },
     ],
   },
@@ -52,7 +52,7 @@ const navigation = [
       {
         title: 'Fragmentation spatiale',
         href: '/docs/biodiversite/fragmentation-spatiale',
-        status: 'wip',
+        status: 'done',
       },
       { title: "Résistance au lessivage de l'N", href: '/docs/wip?6' },
     ],
@@ -80,9 +80,9 @@ const navigation = [
       },
       { title: 'Rendement SAU', href: '/docs/wip?12' },
       {
-        title: 'Marge brut moyenne des cultures',
+        title: 'Marge brute moyenne des cultures',
         href: '/docs/rentabilite/marge-brute',
-        status: 'wip',
+        status: 'done',
       },
       { title: 'Cout de production triticale ou blé', href: '/docs/wip?14' },
     ],
