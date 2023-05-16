@@ -73,7 +73,11 @@ const navigation = [
   {
     title: 'Rentabilité et Efficience',
     links: [
-      { title: 'Efficience des intrants', href: '/docs/wip?11' },
+      {
+        title: 'Efficience des intrants',
+        href: '/docs/solsvivants/efficience-intrants',
+        status: 'wip',
+      },
       { title: 'Rendement SAU', href: '/docs/wip?12' },
       {
         title: 'Marge brut moyenne des cultures',
