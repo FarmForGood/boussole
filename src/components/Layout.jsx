@@ -63,6 +63,7 @@ const navigation = [
       {
         title: "Autonomie alimentaire de l'élevage",
         href: '/docs/autonomieresilience/autonomie-alimentaire',
+        status: 'done',
       },
       { title: 'Cadre de vie', href: '/docs/wip?7' },
       { title: 'Autonomie en azote', href: '/docs/wip?8' },
