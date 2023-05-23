@@ -65,7 +65,7 @@ Les fourrages et concentrés ont des taux de MS très variables, l’agriculteur
 
 L'autonomie alimentaire est de:
 
-{% math expression="\\frac {(20.8 * 0.878) + (15 * 0.87)} {(10.8 + 5) * 1000} = 1981 kg" p="6" /%}
+{% math expression="\\frac {(20.8 * 0.878) + (15 * 0.87)} {(10.8 + 5)} * 1000 = 1981 kg" p="6" /%}
 
 (en kg de MS par UGB)
 
