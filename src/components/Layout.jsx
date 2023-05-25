@@ -30,8 +30,8 @@ const navigation = [
       },
       {
         title: 'Simplification du travail du sol',
-        href: '/docs/wip?2',
-        status: 'todo',
+        href: '/docs/solsvivants/simplification',
+        status: 'done',
       },
       {
         title: 'Diversité de cultures',
@@ -54,7 +54,7 @@ const navigation = [
         href: '/docs/biodiversite/fragmentation-spatiale',
         status: 'done',
       },
-      { title: "Résistance au lessivage de l'N", href: '/docs/wip?6' },
+      { title: "Résistance au lessivage de l'azote", href: '/docs/wip?6' },
     ],
   },
   {
