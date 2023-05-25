@@ -3,7 +3,7 @@ title: Autonomie alimentaire de l'élevage
 description: Nous utilisons l’indicateur pour observé l’autonomie alimentaire de la ferme sur l’atelier animal.
 ---
 
-**Description?**
+## Description
 
 Nous utilisons l’indicateur pour observé l’autonomie alimentaire de la ferme sur l’atelier animal.
 

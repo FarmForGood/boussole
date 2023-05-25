@@ -65,7 +65,11 @@ const navigation = [
         href: '/docs/autonomieresilience/autonomie-alimentaire',
         status: 'done',
       },
-      { title: 'Cadre de vie', href: '/docs/wip?7' },
+      {
+        title: 'Cadre de vie',
+        href: '/docs/autonomieresilience/cadre-de-vie',
+        status: 'done',
+      },
       { title: 'Autonomie en azote', href: '/docs/wip?8' },
       { title: 'Indépendance aux primes', href: '/docs/wip?9' },
       { title: 'Indépendance énergétique', href: '/docs/wip?10' },
