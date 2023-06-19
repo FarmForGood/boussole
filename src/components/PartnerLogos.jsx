@@ -45,12 +45,18 @@ export default function PartnerLogos() {
       logo: '/logos/escaut.png',
       url: 'https://plainesdelescaut.be/wikipnpe/?PagePrincipale/',
     },
+    {
+      name: 'Collège des Producteurs',
+      logo: '/logos/college_producteurs.jpg',
+      url: 'https://collegedesproducteurs.be',
+    },
   ]
 
   function renderLogo(partner) {
     return (
       <a
         href={partner.url}
+        target="_blank"
         style={{ boxShadow: 'none', textShadow: 'none' }}
         className="shadow-none"
       >
@@ -74,6 +80,9 @@ export default function PartnerLogos() {
         {renderLogo(partners[6])}
         {renderLogo(partners[7])}
         {renderLogo(partners[8])}
+      </div>
+      <div className="flex flex-row justify-center">
+        {renderLogo(partners[9])}
       </div>
     </div>
   )
