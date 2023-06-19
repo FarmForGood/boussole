@@ -58,6 +58,7 @@ export default function PartnerLogos() {
         href={partner.url}
         target="_blank"
         style={{ boxShadow: 'none', textShadow: 'none' }}
+        rel="noreferrer"
         className="shadow-none"
       >
         <img src={partner.logo} alt="partner" className="m-4 h-32 w-32" />
