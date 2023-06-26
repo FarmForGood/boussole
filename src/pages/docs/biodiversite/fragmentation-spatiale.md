@@ -3,7 +3,7 @@ title: Fragmentation spatiale
 description: Objectif de biodiversité et objectif de rentabilité à correler
 ---
 
-**Description?**
+## Description
 
 En terres cultivable de pleins champs, la biodiversité se développe plus facilement en bordure qu’au centre de grandes parcelles. Réduire la taille des parcelles constitue un levier efficace pour améliorer les conditions d’accueil de la biodiversité. Les effets positifs se manifestent en dessous de 6ha. D’un autre coté nous pondérons les résultats avec la taille minimum pour un débit de chantier qui ne soit pas négatif, ce qui correspond à 8ha.
 

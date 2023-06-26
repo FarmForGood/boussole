@@ -36,6 +36,7 @@ const tags = {
       expression: { type: String },
       size: { type: String },
       p: { type: String },
+      inline: { type: Boolean}
     },
     render: Math,
   },

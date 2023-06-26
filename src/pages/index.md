@@ -1,12 +1,12 @@
 ---
 title: Présentation
-pageTitle: Boussole - Indicateurs clés pour votre ferme.
+pageTitle: Oepn Compass - Indicateurs clés pour votre ferme.
 description: Une série d'indicateurs clairs et scientifiques pour une agriculture durable
 ---
 
 L’évaluation objective des pratiques agricoles est essentielle pour guider nos choix. Les modèles utilisés pour calculer les indicateurs de performances sont souvent complexes et leur mise en œuvre pas accessible.
 
-Le projet Open Boussole est d'expliquer et de valider les modèles utilisés pour calculer les indicateurs agronomiques. Il est basé sur la contribution de sa communauté. Chacun peut copier et distribuer le contenu du site sous réserve d’en citer la source (openboussole.org)
+Le projet Open Compass est d'expliquer et de valider les modèles utilisés pour calculer les indicateurs agronomiques. Il est basé sur la contribution de sa communauté. Chacun peut copier et distribuer le contenu du site sous réserve d’en citer la source (open-compass.org)
 
 ---
 
@@ -28,7 +28,7 @@ Le projet Open Boussole est d'expliquer et de valider les modèles utilisés pou
 
 ## Comment ça marche ?
 
-- Rejoignez la communauté Open Boussole [en vous inscrivant](/infos/participer)
+- Rejoignez la communauté Open Compass [en vous inscrivant](/infos/participer)
 - Proposez un indicateur et/ou choisissez un indicateur auquel vous voulez contribuer
 - Choisissez le groupe de travail (vous pouvez participer à plusieurs groupes de travail)
 - Commencez à contribuer

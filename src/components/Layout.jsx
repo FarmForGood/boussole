@@ -22,7 +22,11 @@ const navigation = [
   {
     title: 'Sols Vivants',
     links: [
-      { title: 'Bilan humique', href: '/docs/wip?0' },
+      { 
+        title: 'Bilan humique', 
+        href: '/docs/solsvivants/bilanhumique', 
+        status: 'done', 
+      },
       {
         title: 'Couverture du sol',
         href: '/docs/solsvivants/couverture',
