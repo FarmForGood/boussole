@@ -1,12 +1,12 @@
 ---
 title: Présentation
-pageTitle: Oepn Compass - Indicateurs clés pour votre ferme.
+pageTitle: Open Compass - Indicateurs clés pour votre ferme.
 description: Une série d'indicateurs clairs et scientifiques pour une agriculture durable
 ---
 
 L’évaluation objective des pratiques agricoles est essentielle pour guider nos choix. Les modèles utilisés pour calculer les indicateurs de performances sont souvent complexes et leur mise en œuvre pas accessible.
 
-Le projet Open Compass est d'expliquer et de valider les modèles utilisés pour calculer les indicateurs agronomiques. Il est basé sur la contribution de sa communauté. Chacun peut copier et distribuer le contenu du site sous réserve d’en citer la source (open-compass.org)
+Le projet Open Compass est d'expliquer et de valider les modèles utilisés pour calculer les indicateurs agronomiques. Il est basé sur la contribution de sa communauté. Chacun peut copier et distribuer le contenu du site sous réserve d’en citer la source ([open-compass.org](htts://www.open-compass.org))
 
 ---
 
