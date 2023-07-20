@@ -45,7 +45,11 @@ const NAVIGATION = [
         href: '/docs/biodiversite/fragmentation-spatiale',
         status: 'done',
       },
-      { title: "Résistance au lessivage de l'azote", href: '/docs/wip?6' },
+      {
+        title: "Résistance au lessivage de l'azote",
+        href: '/docs/biodiversite/lessivage',
+        status: 'done',
+      },
     ],
   },
   {
