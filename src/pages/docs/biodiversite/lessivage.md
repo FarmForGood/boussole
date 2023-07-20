@@ -21,9 +21,9 @@ Quantité d’azote minéral et organique (y compris les engrais verts et résid
 
 ## Comment est-ce calculé ?
 
-La méthode de calcul consiste en un bilan calculé en soustrayant les sorties d’azote à la somme de ses entrées. Il est réalisé sur toutes les parcelles et on calcule ensuite une moyenne pondérée par la surface pour avoir une valeur unique pour l’ensemble de l’exploitation.
+La méthode de calcul consiste en un bilan calculé en soustrayant les sorties d’azote à la somme de ses entrées, en valeur absolue. Il est réalisé sur toutes les parcelles et on calcule ensuite une moyenne pondérée par la surface pour avoir une valeur unique pour l’ensemble de l’exploitation.
 
-{% math expression="Résistance = \\sum_{parcelles}^{} ((\\sum_{}^{} Importations - \\sum_{}^{} Exportations) * SAU) " /%}
+{% math expression="Résistance = \\sum_{parcelles}^{} ((|\\sum_{}^{} Importations - \\sum_{}^{} Exportations|) * SAU) " /%}
 
 ---
 

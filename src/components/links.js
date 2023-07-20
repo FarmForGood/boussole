@@ -70,7 +70,6 @@ const NAVIGATION = [
         href: '/docs/autonomieresilience/autonomie-azote',
         status: 'done',
       },
-      { title: 'Indépendance aux primes', href: '/docs/wip?9' },
       { title: 'Indépendance énergétique', href: '/docs/wip?10' },
     ],
   },
