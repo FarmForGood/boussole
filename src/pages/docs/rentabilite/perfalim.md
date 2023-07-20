@@ -37,6 +37,12 @@ Les données sont à renseigner par l’agriculteur.
 
 ---
 
+## Référence et méthodologie:
+
+[Perfalim (CEREOPA)](http://perfalim.com/fr/)
+
+---
+
 ## {% compass quarter="nw" inline="true" /%} Dans la boussole
 
 - Valeur minimale : 0 personnes/ha.an
