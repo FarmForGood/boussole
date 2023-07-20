@@ -22,10 +22,10 @@ const navigation = [
   {
     title: 'Sols Vivants',
     links: [
-      { 
-        title: 'Bilan humique', 
-        href: '/docs/solsvivants/bilanhumique', 
-        status: 'done', 
+      {
+        title: 'Bilan humique',
+        href: '/docs/solsvivants/bilanhumique',
+        status: 'done',
       },
       {
         title: 'Couverture du sol',
@@ -93,7 +93,11 @@ const navigation = [
         href: '/docs/rentabilite/marge-brute',
         status: 'done',
       },
-      { title: 'Cout de production triticale ou blé', href: '/docs/wip?14' },
+      {
+        title: 'Performance Alimentaire',
+        href: '/docs/rentabilite/perfalim',
+        status: 'done',
+      },
     ],
   },
 ]
