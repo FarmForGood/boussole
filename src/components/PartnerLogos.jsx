@@ -50,6 +50,11 @@ export default function PartnerLogos() {
       logo: '/logos/college_producteurs.jpg',
       url: 'https://collegedesproducteurs.be',
     },
+    {
+      name: 'BioWallonie',
+      logo: '/logos/biowallonie.png',
+      url: 'https://www.biowallonie.com',
+    },
   ]
 
   function renderLogo(partner) {
@@ -84,6 +89,7 @@ export default function PartnerLogos() {
       </div>
       <div className="flex flex-row justify-center">
         {renderLogo(partners[9])}
+        {renderLogo(partners[10])}
       </div>
     </div>
   )
