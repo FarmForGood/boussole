@@ -71,7 +71,7 @@ export default function PartnerLogos() {
     [
       {
         name: 'Fibl Suisse',
-        logo: '/logos/fibl.png',
+        logo: '/logos/FiBL.png',
         url: 'https://www.fibl.org/fr/sites/suisse/',
       },
     ],
