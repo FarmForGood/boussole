@@ -39,7 +39,11 @@ const NAVIGATION = [
         href: '/docs/biodiversite/progressionab',
         status: 'done',
       },
-      { title: 'Mailage écologique', href: '/docs/wip?4' },
+      {
+        title: 'Maillage écologique',
+        href: '/docs/biodiversite/maillage-ecologique',
+        status: 'done',
+      },
       {
         title: 'Fragmentation spatiale',
         href: '/docs/biodiversite/fragmentation-spatiale',
