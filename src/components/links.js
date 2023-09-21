@@ -83,7 +83,7 @@ const NAVIGATION = [
       {
         title: 'Efficience des intrants',
         href: '/docs/solsvivants/efficience-intrants',
-        status: 'wip',
+        status: 'done',
       },
       { title: 'Rendement SAU', href: '/docs/wip?12' },
       {
