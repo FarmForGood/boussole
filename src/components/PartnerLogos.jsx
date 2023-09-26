@@ -87,11 +87,15 @@ export default function PartnerLogos() {
       <a
         href={partner.url}
         target="_blank"
-        style={{ boxShadow: 'none', textShadow: 'none' }}
+        style={{ boxShadow: 'none' }}
         rel="noreferrer"
-        className="flex flex-col items-center justify-start rounded-sm shadow-sm"
+        className="m-2 flex flex-col items-center justify-start rounded-sm"
       >
-        <img src={partner.logo} alt="partner" className="mx-2 mt-2 h-32 w-32" />
+        <img
+          src={partner.logo}
+          alt="partner"
+          className="mx-2 mb-0 mt-2 h-32 w-32"
+        />
         <p className="text-center text-sm capitalize">{partner.name}</p>
       </a>
     )
