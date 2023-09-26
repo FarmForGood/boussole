@@ -9,11 +9,11 @@ Nous utilisons cet indicateur pour faire le point sur la production d’énergie
 
 ## Unité
 
-Pourcentage.
+Pourcentage (numérateur et dénominateur en kWh)
 
 ## Mode de calcul
 
-Somme des consommations énergétique (kWh) / Somme des productions d’énergie renouvelable (kWh)
+{% math expression="Ind.\\,énerg. = \\frac {\\sum_{} Consommations\\,énergétiques} {\\sum_{} Productions\\,d'énergie}" /%}
 
 ## D'où proviennent les données
 
