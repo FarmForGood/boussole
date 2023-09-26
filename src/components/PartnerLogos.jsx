@@ -74,6 +74,16 @@ export default function PartnerLogos() {
         logo: '/logos/FiBL.png',
         url: 'https://www.fibl.org/fr/sites/suisse/',
       },
+      {
+        name: 'Foire de Libramont',
+        logo: '/logos/libramont.jpg',
+        url: 'https://www.foiredelibramont.com/',
+      },
+      {
+        name: "Graines d'Avenir",
+        logo: '/logos/graines_avenir.jpg',
+        url: 'https://www.facebook.com/FormationsAgroecologie/',
+      },
     ],
   ]
 
