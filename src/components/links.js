@@ -74,7 +74,11 @@ const NAVIGATION = [
         href: '/docs/autonomieresilience/autonomie-azote',
         status: 'done',
       },
-      { title: 'Indépendance énergétique', href: '/docs/wip?10' },
+      {
+        title: 'Indépendance énergétique',
+        href: '/docs/autonomieresilience/independance-energetique',
+        status: 'done',
+      },
     ],
   },
   {
@@ -95,6 +99,19 @@ const NAVIGATION = [
         title: 'Performance Alimentaire',
         href: '/docs/rentabilite/perfalim',
         status: 'done',
+      },
+    ],
+  },
+  {
+    title: 'Indicateurs secondaires',
+    links: [
+      {
+        title: 'Chargement animal',
+        href: '/docs/wip?13',
+      },
+      {
+        title: 'Utilisation de la surface paturable',
+        href: '/docs/wip?15',
       },
     ],
   },

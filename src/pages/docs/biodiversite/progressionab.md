@@ -20,6 +20,8 @@ Avec:
 
 {% math expression="prog_{ab} = surface_{ab} / sau" /%}
 
+Les surfaces en 1ère année de conversion sont comptabilisées avec un coefficient de 0,33 et les surface en 2ème année de conversion sont comptabilisées avec un coefficient de 0,66. LEs surfaces certifiées bio ont un coefficient de 1.
+
 ---
 
 ## D’où proviennent les données ?
