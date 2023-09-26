@@ -1,17 +1,17 @@
 ---
-title: Diversité de culture
-description: valoriser l'augmentation du nombre de cultures, pour répondres aux enjeux agronomique de la maximisation/intensification végétale
+title: Diversité des espèces
+description: valoriser l'augmentation du nombre d'espèces, pour répondres aux enjeux agronomique de la maximisation/intensification végétale
 ---
 
 ## A propos de l'indicateur
 
-Le but de l’indicateur est de noter la diversité de plante cultivées sur la ferme. La note cherche à valoriser l'augmentation du nombre de cultures, pour répondres aux enjeux agronomique de la maximisation/intensification végétale. Les prairies permanentes sont noté arbitrairement à 7 espèces. les prairies temporaire, comme les couverts sont comptabilisé en fonction du nombre d'espèces semé. Volontairement ce biais est conscient (toutes les graines semés ne pousserons peut-etre pas) mais nous encourageons la démarche. Les cultures principales sont compté au nombre d'espèce semé.
+Le but de l’indicateur est de noter la diversité de plante cultivées sur la ferme. La note cherche à valoriser l'augmentation du nombre d'espèces, pour répondres aux enjeux agronomique de la maximisation/intensification végétale. Les prairies permanentes sont noté arbitrairement à 7 espèces. les prairies temporaires, comme les couverts sont comptabilisé en fonction du nombre d'espèces semées. Volontairement ce biais est conscient (toutes les graines semées ne pousserons peut-etre pas) mais nous encourageons la démarche. Les cultures principales sont compté au nombre d'espèce semée.
 
 ---
 
 ## Mode de calcul
 
-On calcul le nombre de plantes cultivés représentant + de 5% de la SAU (le +5% de la SAU est pour justifier le minimum requis de surface pour une plante cultivé).
+On calcul le nombre de plantes cultivées représentant + de 5% de la SAU (le +5% de la SAU est pour justifier le minimum requis de surface pour une plante cultivé).
 
 **Calcul :** (Somme des espèces semés qui : 1ère condition ->représentent plus de 10% dans la culture semé PUIS 2°-> la culture doit représenter en surface + de 5% de la SAU)
 

@@ -25,7 +25,7 @@ const NAVIGATION = [
         status: 'done',
       },
       {
-        title: 'Diversité de cultures',
+        title: 'Diversité des espèces',
         href: '/docs/solsvivants/diversite',
         status: 'done',
       },
@@ -79,6 +79,10 @@ const NAVIGATION = [
         href: '/docs/autonomieresilience/independance-energetique',
         status: 'done',
       },
+      {
+        title: 'Indice de Fréquence de Traitement (IFT)',
+        href: '/docs/wip?5',
+      },
     ],
   },
   {
@@ -89,7 +93,11 @@ const NAVIGATION = [
         href: '/docs/solsvivants/efficience-intrants',
         status: 'done',
       },
-      { title: 'Rendement SAU', href: '/docs/wip?12' },
+      {
+        title: 'Rendement SAU',
+        href: '/docs/rentabilite/rendement-sau',
+        status: 'done',
+      },
       {
         title: 'Marge brute moyenne des cultures',
         href: '/docs/rentabilite/marge-brute',
@@ -99,19 +107,6 @@ const NAVIGATION = [
         title: 'Performance Alimentaire',
         href: '/docs/rentabilite/perfalim',
         status: 'done',
-      },
-    ],
-  },
-  {
-    title: 'Indicateurs secondaires',
-    links: [
-      {
-        title: 'Chargement animal',
-        href: '/docs/wip?13',
-      },
-      {
-        title: 'Utilisation de la surface paturable',
-        href: '/docs/wip?15',
       },
     ],
   },
