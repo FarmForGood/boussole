@@ -12,9 +12,6 @@ export function getLanguage() {
 }
 
 export function getLocalizedLink(href, locale = 'fr') {
-  if (href === '/') {
-    return href
-  }
   if (href.startsWith('/')) {
     return `/${locale}${href}`
   }

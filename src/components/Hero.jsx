@@ -7,17 +7,7 @@ import { Button } from '@/components/Button'
 import { HeroBackground } from '@/components/HeroBackground'
 import blurCyanImage from '@/images/blur-cyan.png'
 import blurIndigoImage from '@/images/blur-cyan.png'
-
-const codeLanguage = 'javascript'
-const code = `Unités : t MO/ha
-Calcul : Quantités d’humus - Quantités minéralisées.
-Min : -2 tMO/ha. 
-Max : 2 tMO/ha`
-
-const tabs = [
-  { name: 'Bilan Humique', isActive: true },
-  { name: 'Sols Vivants', isActive: false },
-]
+import locale from '@/translations/locale.json'
 
 function TrafficLightsIcon(props) {
   return (
@@ -29,7 +19,16 @@ function TrafficLightsIcon(props) {
   )
 }
 
-export function Hero() {
+export function Hero({ language }) {
+  const translations = locale[language]
+
+  const codeLanguage = 'javascript'
+  const code = translations.codeSample
+
+  const tabs = [
+    { name: translations.humicBalance, isActive: true },
+    { name: translations.liveSoils, isActive: false },
+  ]
   return (
     <div className="overflow-hidden bg-slate-900 dark:-mb-32 dark:mt-[-4.5rem] dark:pb-32 dark:pt-[4.5rem] dark:lg:mt-[-4.75rem] dark:lg:pt-[4.75rem]">
       <div className="py-16 sm:px-2 lg:relative lg:py-20 lg:px-0">
@@ -46,13 +45,15 @@ export function Hero() {
             />
             <div className="relative">
               <p className="inline bg-gradient-to-r from-teal-200 via-teal-400 to-teal-200 bg-clip-text font-display text-5xl tracking-tight text-transparent">
-                Pour une évaluation objective des pratiques agricoles
+                {translations.objectiveEvaluation}
               </p>
               <p className="mt-3 text-2xl tracking-tight text-slate-400">
-                Aidez à faire la lumière sur les indicateurs pertinents
+                {translations.helpUs}
               </p>
               <div className="mt-8 flex gap-4 md:justify-center lg:justify-start">
-                <Button href="/infos/participer">Participer</Button>
+                <Button href="/infos/participer">
+                  {translations.participate}
+                </Button>
               </div>
             </div>
           </div>

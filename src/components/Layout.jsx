@@ -15,6 +15,7 @@ import { getNavigation } from '@/components/links'
 import { useCookies } from 'react-cookie'
 import { getLocalizedLink } from '@/utils/utils'
 import Languages from './Languages'
+import locale from '@/translations/locale.json'
 
 function GitHubIcon(props) {
   return (
@@ -118,12 +119,18 @@ export function Layout({ children, title, tableOfContents }) {
   let router = useRouter()
   const pathname = usePathname()
 
+  const translations = locale[language]
+
   function toggleLanguage() {
     if (language === 'fr') {
       setCookie('language', 'en', {
         path: '/',
       })
-      router.push(pathname.replace('/fr', '/en'))
+      if (pathname === '/') {
+        router.push('/en')
+      } else {
+        router.push(pathname.replace('/fr', '/en'))
+      }
     } else {
       setCookie('language', 'fr', {
         path: '/',
@@ -158,7 +165,7 @@ export function Layout({ children, title, tableOfContents }) {
 
   return (
     <>
-      {isHomePage && <Hero />}
+      {isHomePage && <Hero language={language} />}
 
       <div className="relative mx-auto flex max-w-8xl justify-center sm:px-2 lg:px-8 xl:px-12">
         <div className="hidden lg:relative lg:block lg:flex-none">
@@ -195,7 +202,7 @@ export function Layout({ children, title, tableOfContents }) {
             {previousPage && (
               <div>
                 <dt className="font-display text-sm font-medium text-slate-900 dark:text-white">
-                  Précedent
+                  {translations.previous}
                 </dt>
                 <dd className="mt-1">
                   <Link
@@ -210,7 +217,7 @@ export function Layout({ children, title, tableOfContents }) {
             {nextPage && (
               <div className="ml-auto text-right">
                 <dt className="font-display text-sm font-medium text-slate-900 dark:text-white">
-                  Suivant
+                  {translations.next}
                 </dt>
                 <dd className="mt-1">
                   <Link
@@ -236,7 +243,7 @@ export function Layout({ children, title, tableOfContents }) {
                   id="on-this-page-title"
                   className="font-display text-sm font-medium text-slate-900 dark:text-white"
                 >
-                  Sur cette page
+                  {translations.onThisPage}
                 </h2>
                 <ol role="list" className="mt-4 space-y-3 text-sm">
                   {tableOfContents.map((section) => (

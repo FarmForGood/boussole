@@ -1,0 +1,24 @@
+{
+  "en": {
+    "onThisPage": "On this page",
+    "next": "Next",
+    "previous": "Previous",
+    "objectiveEvaluation": "For an objective evaluation of agricultural practices",
+    "helpUs": "Help to shed light on relevant indicators",
+    "humicBalance": "Humic Balance",
+    "contribute": "Contribute",
+    "liveSoils": "Live Soils",
+    "codeSample": "Units : t MO/ha\nComputation : Humus Quantities - Mineralized Quantities.\nMin: -2 tMO/ha. \nMax: 2 tMO/ha"
+  },
+  "fr": {
+    "onThisPage": "Sur cette page",
+    "next": "Suivant",
+    "previous": "Précédent",
+    "objectiveEvaluation": "Pour une évaluation objective des pratiques agricoles",
+    "helpUs": "Aidez à faire la lumière sur les indicateurs pertinents",
+    "contribute": "Contribuer",
+    "humicBalance": "Bilan Humique",
+    "liveSoils": "Sols Vivants",
+    "codeSample": "Unités : t MO/ha\nCalcul : Quantités d’humus - Quantités minéralisées.\nMin : -2 tMO/ha. \nMax : 2 tMO/ha"
+  }
+}
