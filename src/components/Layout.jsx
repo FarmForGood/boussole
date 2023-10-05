@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useState } from 'react'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
+import { usePathname } from 'next/navigation'
 import clsx from 'clsx'
 
 import { Hero } from '@/components/Hero'
@@ -10,9 +11,10 @@ import { Navigation } from '@/components/Navigation'
 import { Prose } from '@/components/Prose'
 import { Search } from '@/components/Search'
 import { ThemeSelector } from '@/components/ThemeSelector'
-import NAVIGATION from '@/components/links'
-
-let navigation = NAVIGATION
+import { getNavigation } from '@/components/links'
+import { useCookies } from 'react-cookie'
+import { getLocalizedLink } from '@/utils/utils'
+import Languages from './Languages'
 
 function GitHubIcon(props) {
   return (
@@ -111,14 +113,36 @@ function useTableOfContents(tableOfContents) {
 }
 
 export function Layout({ children, title, tableOfContents }) {
+  const [cookies, setCookie] = useCookies(['language'])
+  const language = cookies.language || 'fr'
   let router = useRouter()
+  const pathname = usePathname()
+
+  function toggleLanguage() {
+    if (language === 'fr') {
+      setCookie('language', 'en', {
+        path: '/',
+      })
+      router.push(pathname.replace('/fr', '/en'))
+    } else {
+      setCookie('language', 'fr', {
+        path: '/',
+      })
+      router.push(pathname.replace('/en', '/fr'))
+    }
+  }
   let isHomePage = router.pathname === '/'
+  let navigation = getNavigation(language)
   let allLinks = navigation.flatMap((section) => section.links)
-  let linkIndex = allLinks.findIndex((link) => link.href === router.pathname)
+  let linkIndex = allLinks.findIndex(
+    (link) => getLocalizedLink(link.href) === router.pathname
+  )
   let previousPage = allLinks[linkIndex - 1]
   let nextPage = allLinks[linkIndex + 1]
   let section = navigation.find((section) =>
-    section.links.find((link) => link.href === router.pathname)
+    section.links.find(
+      (link) => getLocalizedLink(link.href, language) === router.pathname
+    )
   )
   let currentSection = useTableOfContents(tableOfContents)
 
@@ -144,6 +168,7 @@ export function Layout({ children, title, tableOfContents }) {
           <div className="sticky top-[4.5rem] -ml-0.5 h-[calc(100vh-4.5rem)] overflow-y-auto overflow-x-hidden py-16 pl-0.5">
             <Navigation
               navigation={navigation}
+              language={language}
               className="w-64 pr-8 xl:w-72 xl:pr-16"
             />
           </div>
@@ -174,7 +199,7 @@ export function Layout({ children, title, tableOfContents }) {
                 </dt>
                 <dd className="mt-1">
                   <Link
-                    href={previousPage.href}
+                    href={getLocalizedLink(previousPage.href, language)}
                     className="text-base font-semibold text-slate-500 hover:text-slate-600 dark:text-slate-400 dark:hover:text-slate-300"
                   >
                     <span aria-hidden="true">&larr;</span> {previousPage.title}
@@ -189,7 +214,7 @@ export function Layout({ children, title, tableOfContents }) {
                 </dt>
                 <dd className="mt-1">
                   <Link
-                    href={nextPage.href}
+                    href={getLocalizedLink(nextPage.href, language)}
                     className="text-base font-semibold text-slate-500 hover:text-slate-600 dark:text-slate-400 dark:hover:text-slate-300"
                   >
                     {nextPage.title} <span aria-hidden="true">&rarr;</span>
@@ -203,6 +228,10 @@ export function Layout({ children, title, tableOfContents }) {
           <nav aria-labelledby="on-this-page-title" className="w-56">
             {tableOfContents.length > 0 && (
               <>
+                <Languages
+                  toggleLanguage={toggleLanguage}
+                  language={language}
+                />
                 <h2
                   id="on-this-page-title"
                   className="font-display text-sm font-medium text-slate-900 dark:text-white"

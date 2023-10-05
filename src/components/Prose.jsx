@@ -1,7 +1,6 @@
 import clsx from 'clsx'
 
 export function Prose({ as: Component = 'div', className, ...props }) {
-  console.log(props)
   return (
     <Component
       className={clsx(

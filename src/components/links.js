@@ -1,4 +1,4 @@
-const NAVIGATION = [
+const FR_NAVIGATION = [
   {
     title: 'Présentation',
     links: [
@@ -112,4 +112,124 @@ const NAVIGATION = [
   },
 ]
 
-export default NAVIGATION
+const EN_NAVIGATION = [
+  {
+    title: 'Overview',
+    links: [
+      { title: 'About Us', href: '/', status: 'info' },
+      { title: 'Get Involved', href: '/infos/participer', status: 'join' },
+    ],
+  },
+  {
+    title: 'Living Soils',
+    links: [
+      {
+        title: 'Humic Balance',
+        href: '/docs/solsvivants/bilanhumique',
+        status: 'done',
+      },
+      {
+        title: 'Soil Cover',
+        href: '/docs/solsvivants/couverture',
+        status: 'done',
+      },
+      {
+        title: 'Simplified Soil Work',
+        href: '/docs/solsvivants/simplification',
+        status: 'done',
+      },
+      {
+        title: 'Species Diversity',
+        href: '/docs/solsvivants/diversite',
+        status: 'done',
+      },
+    ],
+  },
+  {
+    title: 'Biodiversity and Water',
+    links: [
+      {
+        title: 'Transition to Organic Farming',
+        href: '/docs/biodiversite/progressionab',
+        status: 'done',
+      },
+      {
+        title: 'Ecological Network',
+        href: '/docs/biodiversite/maillage-ecologique',
+        status: 'done',
+      },
+      {
+        title: 'Spatial Fragmentation',
+        href: '/docs/biodiversite/fragmentation-spatiale',
+        status: 'done',
+      },
+      {
+        title: 'Nitrogen Leaching Resistance',
+        href: '/docs/biodiversite/lessivage',
+        status: 'done',
+      },
+    ],
+  },
+  {
+    title: 'Autonomy and Resilience',
+    links: [
+      {
+        title: "Livestock's Food Autonomy",
+        href: '/docs/autonomieresilience/autonomie-alimentaire',
+        status: 'done',
+      },
+      {
+        title: 'Quality of Life',
+        href: '/docs/autonomieresilience/cadre-de-vie',
+        status: 'done',
+      },
+      {
+        title: 'Nitrogen Autonomy',
+        href: '/docs/autonomieresilience/autonomie-azote',
+        status: 'done',
+      },
+      {
+        title: 'Energy Independence',
+        href: '/docs/autonomieresilience/independance-energetique',
+        status: 'done',
+      },
+      {
+        title: 'Treatment Frequency Index (TFI)',
+        href: '/docs/wip?5',
+      },
+    ],
+  },
+  {
+    title: 'Profitability and Efficiency',
+    links: [
+      {
+        title: 'Input Efficiency',
+        href: '/docs/solsvivants/efficience-intrants',
+        status: 'done',
+      },
+      {
+        title: 'Hectare Yield',
+        href: '/docs/rentabilite/rendement-sau',
+        status: 'done',
+      },
+      {
+        title: 'Average Crop Gross Margin',
+        href: '/docs/rentabilite/marge-brute',
+        status: 'done',
+      },
+      {
+        title: 'Feed Efficiency',
+        href: '/docs/rentabilite/perfalim',
+        status: 'done',
+      },
+    ],
+  },
+]
+
+export function getNavigation(language = 'fr') {
+  if (language === 'fr') {
+    return FR_NAVIGATION
+  } else if (language === 'en') {
+    return EN_NAVIGATION
+  }
+}

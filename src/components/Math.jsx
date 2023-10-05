@@ -2,8 +2,6 @@ import 'katex/dist/katex.min.css'
 import { InlineMath, BlockMath } from 'react-katex'
 
 export function Math({ expression, size = '2xl', inline = false, p = '6' }) {
-  console.log("Inline: ", inline)
-  console.log("expression: ", expression)
   if (inline) return <InlineMath>{expression}</InlineMath>
   return (
     <span
