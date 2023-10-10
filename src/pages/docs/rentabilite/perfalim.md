@@ -33,7 +33,7 @@ Les calories et protéines non consommables par l’homme ne sont pas comptabili
 
 ## D’où proviennent les données ?
 
-Les données sont à renseigner par l’agriculteur.
+Les données sont à renseigner par l’agriculteur d'après sa comptabilité de gestion ou à défaut les facures de ventes.
 
 ---
 

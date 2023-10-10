@@ -17,7 +17,7 @@ Pourcentage (numérateur et dénominateur en kWh)
 
 ## D'où proviennent les données
 
-Les données du 1° sont renseignées par l'agriculteur ou l'agronome. Relevés des compteurs électriques. Factures et comptabilité.
+Les données du 1° sont renseignées par l'agriculteur ou l'agronome d'après le relevés des compteurs électriques, les factures et la comptabilité de gestion.
 
 ## Références
 

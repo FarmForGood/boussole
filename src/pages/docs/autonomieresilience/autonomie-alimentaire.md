@@ -15,7 +15,7 @@ Kilos de Matière Séche (MS) par Unité Grand Bovin (UGB)
 
 ## Comment est-ce calculé ?
 
-Si la ferme dispose de moins de 0.2 UGC, on retire l'indicateur de la boussole car l'élevage n'est pas significatif.
+Si la ferme dispose de moins de 0.2 UGB/ha, on retire l'indicateur de la boussole car l'élevage n'est pas significatif.
 
 Avec:
 
@@ -83,7 +83,7 @@ Un biais assez fort est la possible sous nutrition des animaux. Cependant dans u
 
 ## D’où proviennent les données ?
 
-Les données sont renseigné par l'agriculteur et encodée par l'agronome.
+Les données sont renseignées par l'agriculteur d'après ces factures d'achat et les relevés d'effectifs disponibles à l'arsia-Cerise (https://cerise.arsia.be/). Les donnéees sont ensuite encodées par l'agronome.
 
 ---
 

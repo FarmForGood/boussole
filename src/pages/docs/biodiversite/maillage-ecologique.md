@@ -75,7 +75,7 @@ Les seuils sont les suivants :
 
 ## D’où proviennent les données ?
 
-Les données de surface du maillage écologique sont à renseigner par l’agriculteur.
+Les données de surface du maillage écologique sont à renseigner par l’agriculteur d'après sa déclaration PAC.
 
 ---
 

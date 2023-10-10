@@ -5,7 +5,7 @@ description: Autonomie en Azote.
 
 ## Description
 
-Nous utilisons cet indicateur pour évaluer l’autonomie de la ferme sur sa fertilisation. Il permet de savoir quel pourcentage de l’azote apporté provient de la ferme ou des alentours. Le but est également d’apporter une dimension territoriale en favorisant la coopération entre les élevages dans une même région afin de créer une synergie entre les voisins.
+Nous utilisons cet indicateur pour évaluer l’autonomie de la ferme sur sa fertilisation. Il permet de savoir quel pourcentage de l’azote apporté provient de la ferme ou des alentours. Le but est également d’apporter une dimension territoriale en favorisant la coopération entre les élevages dans une même région afin de créer une synergie entre l'élevage et les cultures.
 
 ---
 
@@ -30,7 +30,7 @@ Le calcul consiste à diviser la quantité d’azote locale (fertilisation appor
 
 ## D’où proviennent les données ?
 
-Les données sont renseigné par l'agriculteur et encodée par l'agronome.
+Les données sont renseignées par l'agriculteur d'après son carnet de culture et encodées par l'agronome.
 
 ---
 

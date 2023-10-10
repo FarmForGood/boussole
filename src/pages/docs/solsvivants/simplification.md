@@ -1,6 +1,6 @@
 ---
 title: Simplification du travail du sol
-description: Indique à quel point le sol est perturbé basé sur les types de travaux.
+description: Indique à quel point le sol est perturbé par les différents travaux de sol et les récoltes
 ---
 
 ## Description
@@ -123,13 +123,13 @@ En supposant deux parcelles, une de blé et une d'orge
 
 ## D’où proviennent les données ?
 
-Les données sont renseigné par l'agriculteur et encodée par l'agronome.
+Les données sont renseignées par l'agriculteur d'après son carnet de culture et encodées par l'agronome.
 
 ---
 
 ## Référence et méthodologie:
 
-Le fonctionnement du STIR est basé sur les données générées par RUSLE 2 (Revised Universal Soil Loss Equation 2), également créé par la USDA et le NRCS et qui est une revue de RUSLE 1 (prise en compte de certaines améliorations : caractéristiques de sédimentation, effets des résidus,...).
+Le fonctionnement du STIR est basé sur les données générées par RUSLE 2 (Revised Universal Soil Loss Equation 2), également créé par l'USDA et le NRCS et qui est une revue de RUSLE 1 (prise en compte de certaines améliorations : caractéristiques de sédimentation, effets des résidus,...).
 
 Ces programmes mathématiques ont été mis en place par différents chercheurs et servent à aider à la protection des sols, à l’échelle du champ (Foster, 2013)
 

@@ -7,9 +7,9 @@ description: Résistance au lessivage de l'Azote
 
 Gérer la fertilisation azotée de façon efficace est fondamentale afin d’éviter les phénomènes de lessivage, pouvant être considérés comme des pertes monétaires pour les agriculteurs et provoquant des conséquences importante sur l’environnement telles que l’eutrophisation des eaux de surfaces et de profondeur.
 
-L’indicateur calcule la quantité d’azote total résiduel et organique (y compris les engrais verts et résidus) restant par hectare après exportation des cultures et potentiellement lessivable (pas l’azote immobilisé, ni dans la biomasse vivante). Il est exprimé en kg de N/ha. Cet indicateur est correct vis-à-vis des risques pour l’environnement en dessous de 25 kg N/ha (défini expérimentalement par FFG).
+L’indicateur calcule la quantité d’azote total résiduelle et organique (y compris les engrais verts et résidus) restant par hectare après exportation des cultures et potentiellement lessivable (pas l’azote immobilisé, ni dans la biomasse vivante). Il est exprimé en kg de N/ha. Cet indicateur est correct vis-à-vis des risques pour l’environnement en dessous de 25 kg N/ha.
 
-Par azote total résiduel, il est entendu les deux formes principales d’azote, à savoir, l’azote nitrique (N-NO3) et l’azote ammoniacal (N-NH4), tous deux lessivables. L’azote organique sera également minéralisé dans des périodes non souhaitables.
+Par azote total résiduel, il est entendu toutes les formes d'azote disponibles pour les végétaux ou bien organique. L'azote organique pourvant être minéralisé et lessivé durant des périodes où les besoins des plantes sont très faibles. 
 
 L’estimation de ce bilan est réalisée juste après la récolte de la culture, avant que le lessivage ne prenne de l’importance de par la disparition du prélèvement racinaire.
 
@@ -29,7 +29,7 @@ La méthode de calcul consiste en un bilan calculé en soustrayant les sorties d
 
 ## D’où proviennent les données ?
 
-Les données sont renseigné par l'agriculteur et encodée par l'agronome.
+Les données sont renseignées par l'agriculteur d'après son carnet de culture et encodée par l'agronome.
 
 ---
 

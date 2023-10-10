@@ -19,7 +19,7 @@ Pour un exemple, nous allons prendre des équations simplifiées.
 
 L’objectif des parties "Efficience des intrants" & "Rendement SAU Moyen" ont en commun l’unité de mesure : exprimé en Energie Brute. Il est nécessaire de faire le solde de tous les flux de matière qui rentrent, et de ce qui sortent. Pour cela, nous utilisons une valeur en énergie brute, afin de pouvoir comparer les données entre elles (il existe 4 types d'énergies : Brute, Digestible, Métabolisable, Nette)
 
-Nous cherchons à sommer tous les flux entrants et à les diviser par tout les flux sortants. Dans un contexte agricole, nous allons divisé une ferme en trois parties, afin de faciliter les calculs. Les différentes parties seront notées comme suit:
+Nous cherchons à sommer tous les flux entrants et à les diviser par tout les flux sortants. Dans un contexte agricole, nous allons diviser une ferme en trois parties, afin de faciliter les calculs. Les différentes parties seront notées comme suit:
 
 - Végétale = A
 - Animal = B
@@ -86,7 +86,7 @@ Energies directes : Somme (Fioul domestique + Gazoil d’ETA) (en L)_coef Fioul 
 
 ## D’où proviennent les données ?
 
-Les données du 1° sont renseignées par l'agriculteur ou l'agronome.
+Les données du 1° sont renseignées par l'agriculteur ou l'agronome d'apres la comptablité de gestion, les factures d'achat et de vente, les relevées de compteurs.
 
 - Min : 1 on considère que le plancher est de produire autant que ce qui est utilisé pour la production
 - Max : 10 On considère qu'un bon objectif est d'être capable de produire 10 fois plus d'énergie qui a été consommé

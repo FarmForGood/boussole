@@ -5,9 +5,9 @@ description: couverture des sols agricols de l’exploitation.
 
 ## A propos de l'indicateur
 
-Nous utilisons l’indicateur pour comptabiliser la couverture des sols agricols de l’exploitation, enjeux d’érosion, qualité de l’eau , qualité du sol, intérêt de la production de biomasse perpétuel.
+Nous utilisons l’indicateur pour comptabiliser la couverture des sols agricoles de l’exploitation, enjeux d’érosion, qualité de l’eau , qualité du sol, intérêt de la production de biomasse maximisée.
 
-Exprimé en pourcentage de couverture annuel pour l’assolement (une duré est entre la récolte de la culture précédente et la récolte de la culture de l’année)
+Exprimé en pourcentage de couverture annuel pour l’assolement (la durée totale est comptabilisée entre la récolte de la culture précédente et la récolte de la culture de l’année)
 
 ---
 
@@ -27,7 +27,7 @@ Avec:
 
 → Si "Résidus broyés" = +21 jours
 → Si "Pailles exportés" = + 0 jours
-→ Si "Double culture" = +21 jours
+→ Si "Semis Direct sous couvert végétal" = +21 jours
 
 ### Couverture Couvert
 
@@ -45,7 +45,7 @@ Avec:
 
 ## Origine des données
 
-Les données du 1° sont renseignées par l'agriculteur ou l'agronome.
+Les données du 1° sont renseignées par l'agriculteur ou l'agronome d'après le carnet de culture.
 
 ## Usage dans la boussole
 

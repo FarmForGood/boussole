@@ -5,15 +5,15 @@ description: valoriser l'augmentation du nombre d'espèces, pour répondres aux 
 
 ## A propos de l'indicateur
 
-Le but de l’indicateur est de noter la diversité de plante cultivées sur la ferme. La note cherche à valoriser l'augmentation du nombre d'espèces, pour répondres aux enjeux agronomique de la maximisation/intensification végétale. Les prairies permanentes sont noté arbitrairement à 7 espèces. les prairies temporaires, comme les couverts sont comptabilisé en fonction du nombre d'espèces semées. Volontairement ce biais est conscient (toutes les graines semées ne pousserons peut-etre pas) mais nous encourageons la démarche. Les cultures principales sont compté au nombre d'espèce semée.
+Le but de l’indicateur est de noter la diversité de plante cultivées sur la ferme. La note cherche à valoriser l'augmentation du nombre d'espèces, pour répondres aux enjeux agronomiques de la maximisation/intensification végétale. Les prairies permanentes sont notées arbitrairement à 7 espèces. Les prairies temporaires, comme les couverts sont comptabilisées en fonction du nombre d'espèces semées. Volontairement ce biais est conscient (toutes les graines semées ne pousserons peut-etre pas) mais nous encourageons la démarche. Les cultures principales sont comptées au nombre d'espèce semées.
 
 ---
 
 ## Mode de calcul
 
-On calcul le nombre de plantes cultivées représentant + de 5% de la SAU (le +5% de la SAU est pour justifier le minimum requis de surface pour une plante cultivé).
+On calcul le nombre de plantes cultivées représentant + de 5% de la SAU (le +5% de la SAU est pour justifier le minimum requis de surface pour une plante cultivée).
 
-**Calcul :** (Somme des espèces semés qui : 1ère condition ->représentent plus de 10% dans la culture semé PUIS 2°-> la culture doit représenter en surface + de 5% de la SAU)
+**Calcul :** (Somme des espèces semées qui : 1ère condition ->représentent plus de 5% dans la culture semé PUIS 2°-> la culture doit représenter en surface + de 5% de la SAU)
 
 ## Exemple de calcul
 
@@ -91,10 +91,10 @@ Total de la diversité de culture de l'exploitation "C": 7
 
 ## Dans la boussole
 
-Nous noterons la note sur le « radar » en pourcentage, elle sera proportionnelle au minimum (10)= 0% (sur le radar) et au maximum (20) = 100% (sur le radar)
+Nous noterons la note sur le « radar » en pourcentage, elle sera proportionnelle au minimum (10)= 0% (sur le radar) et au maximum (25) = 100% (sur le radar)
 
 ## Bibliographie
 
 [Science Direct](https://www.sciencedirect.com/science/article/abs/pii/S1161030110000638?via%3Dihub)
 
-La diversité des plantes et leurs différents systèmes racinaires sont efficaces contre la compaction
+La diversité des plantes et leurs différents systèmes racinaires sont efficaces contre la compaction et favorise la biodiversité.

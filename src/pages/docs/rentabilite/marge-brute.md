@@ -3,7 +3,8 @@ title: Marge brute
 description: Marge brute.
 ---
 
-Nous utilisons la valeur de la marge Brute, autrement dit la capacité de la ferme à dégager une marge sur les surfaces cultivées ou encore description du CRA-W _au sein d’un même exercice comptable, l’efficacité avec laquelle l’exploitation génère des produits au moyen de ses charges opérationnelles affectées_.
+Nous utilisons la valeur de la marge Brute, autrement dit la capacité de la ferme à dégager une marge sur les surfaces cultivées ou encore description du CRA-W _au sein d’un même exercice comptable, l’efficacité avec laquelle l’exploitation génère des produits au moyen de ses charges opérationnelles affectées.
+La marge brute est calculée en prenant en compte également l'interculture précédent la culture.
 
 Les valeurs seuils choisies correspondent à :
 
@@ -24,7 +25,7 @@ Dit Autrement: On réalise une moyenne pondéré des ha compté dans la SAU par 
 
 Avec:
 
-- _CAM_: Chiffre d'Affaire Moyen des cultures
+- _CAM_: Chiffre d'Affaire Moyen des cultures (Prix de vente x Volume vendu/ha) pour la ou les cultures présentes sur l'année dans la parcelle.
 - _CP_: Charges proportionnelles
 - _marge_brute_: Marge Brute
 
@@ -39,6 +40,7 @@ Avec:
 - _meca_: coût de la mécanisation
 - _fert_: coût de la fertilisation
 - _recolte_: coût de la récolte
+- _Autres_: Autres charges proportionnelles
 
 {% math expression="CP = sem + prot + desh + meca + fert + recolte" size="base" p="1" /%}
 
@@ -54,7 +56,6 @@ Les données sont à renseigner par l’agriculteur.
 
 - Valeur Minimale : jusqu’à **125€/ha** de SAU = 0% de la Boussole
 - Valeur Médiane : **1139€/ha** de SAU = 70% de la Boussole
-- Valeur Maximale : à partir de **1449€/ha** de SAU= 100% de la Boussole
 
 ---
 

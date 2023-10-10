@@ -13,13 +13,11 @@ On calcule: Somme des énergies produites par toutes les cultures / SAU
 
 Les données d’entrées sont le rendement des cultures \* leur coeficient issue de la table de conversion en TEP
 
-On utilisera le même calcul que pour l’indicateur efficience des intrants concernant les énergies produites.
-
 ---
 
 ## D’où proviennent les données ?
 
-Les données sont renseignées par l'agriculteur ou l'agronome.
+Les données sont renseignées par l'agriculteur ou l'agronome d'aprés le carnet de cultures et les factures de ventes (ou la comptabilité de gestion si présente).
 
 - Min : 5 Gcal/ ha soit un equivalent froment à 1,31T/ha
 - Max : 20 Gcal/ha soit un equivalent froment à 5,26T/ha
@@ -30,8 +28,8 @@ Les données sont renseignées par l'agriculteur ou l'agronome.
 
 On note le pourcentage en se basant sur :
 
-- 0% = 8 Gcal
-- 100% = 46 Gcal
+- 0% = 5 Gcal/ha
+- 100% = 20 Gcal/ha
 
 ---
 
