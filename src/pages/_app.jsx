@@ -66,6 +66,10 @@ export default function App({ Component, pageProps }) {
       <Head>
         <title>{pageTitle}</title>
         {description && <meta name="description" content={description} />}
+        <meta
+          name="keywords"
+          content="agriculture, pratiques, evaluation, agroécologie, agriculture biologique"
+        />
       </Head>
       <Layout title={title} tableOfContents={tableOfContents}>
         <Component {...pageProps} />
