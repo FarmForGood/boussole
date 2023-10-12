@@ -17,6 +17,16 @@ L'indicateur STIR est un indicateur développé par USDA (2012). Il est calculé
 
 Pour chaque machine, des valeurs indicatives ont été fixées pour la vitesse et la profondeur de travail ainsi que la proportion de sol perturbée. Il est toutefois possible de modifier ces valeurs selon l’utilisation faite de la machine, hormis pour les machines à prise de force (Herse rotative et herse bio fraise). Compléter ou modifier uniquement les cases blanches de l'onglet "STIR par culture", ne pas modifier les valeurs de l'onglet "Machines". En cas de modification d'au moins un des trois paramètres (vitesse, profondeur ou surface perturbée), le STIR est calculé automatiquement et renseigné dans la partie « STIR calculé ». Il peut être comparé au « STIR référence ».
 
+Le STIR peut également être calculé manuellement pour toute machine absente ou différente de la liste de référence:
+
+Avec
+
+- _Aggr_: Coefficient d'aggresivité
+- _profondeur_: profondeur de l'intervention en inches
+- _vitesse_: vitesse de la machine en miles par heure
+
+{% math expression="Score\\,de\\,Perturbation = aggr * 3.25 * profondeur * vitesse * 0.5 " /%}
+
 Chaque intervention listée pour une parcelle donne un score de perturbation du sol. Les différents scores sont additionnés pour la parcelle.
 
 A l'échelle de l'exploitation, on fait une moyenne des scores des parcelles pondérée par leur SAU.
