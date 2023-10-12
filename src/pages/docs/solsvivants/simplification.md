@@ -25,7 +25,7 @@ Avec
 - _profondeur_: profondeur de l'intervention en inches
 - _vitesse_: vitesse de la machine en miles par heure
 
-{% math expression="Score\\,de\\,Perturbation = aggr * 3.25 * profondeur * vitesse * 0.5 " /%}
+{% math expression="STIR = \\sum_{ops} (aggr * 3.25 * profondeur_{inches} * vitesse_{mph} * 0.5)" /%}
 
 Chaque intervention listée pour une parcelle donne un score de perturbation du sol. Les différents scores sont additionnés pour la parcelle.
 
