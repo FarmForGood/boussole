@@ -1,19 +1,19 @@
 ---
 title: Diversité des espèces
-description: valoriser l'augmentation du nombre d'espèces, pour répondres aux enjeux agronomique de la maximisation/intensification végétale
+description: valoriser l'augmentation du nombre d'espèces, pour répondre aux enjeux agronomiques de la maximisation/intensification végétale
 ---
 
 ## A propos de l'indicateur
 
-Le but de l’indicateur est de noter la diversité de plante cultivées sur la ferme. La note cherche à valoriser l'augmentation du nombre d'espèces, pour répondres aux enjeux agronomiques de la maximisation/intensification végétale. Les prairies permanentes sont notées arbitrairement à 7 espèces. Les prairies temporaires, comme les couverts sont comptabilisées en fonction du nombre d'espèces semées. Volontairement ce biais est conscient (toutes les graines semées ne pousserons peut-etre pas) mais nous encourageons la démarche. Les cultures principales sont comptées au nombre d'espèce semées.
+Le but de l’indicateur est de noter la diversité de plante cultivée sur la ferme. La note cherche à valoriser l'augmentation du nombre d'espèces, pour répondre aux enjeux agronomiques de la maximisation/intensification végétale. Les prairies permanentes sont notées arbitrairement à 7 espèces. Les prairies temporaires, comme les couverts, sont comptabilisées en fonction du nombre d'espèces semées. Volontairement ce biais est conscient (toutes les graines semées ne pousseront peut-être pas) mais nous encourageons la démarche. Les cultures principales sont comptées au nombre d'espèces semées.
 
 ---
 
 ## Mode de calcul
 
-On calcul le nombre de plantes cultivées représentant + de 5% de la SAU (le +5% de la SAU est pour justifier le minimum requis de surface pour une plante cultivée).
+On calcule le nombre de plantes cultivées représentant + de 5% de la SAU (le +5% de la SAU est pour justifier le minimum requis de surface pour une plante cultivée).
 
-**Calcul :** (Somme des espèces semées qui : 1ère condition ->représentent plus de 5% dans la culture semé PUIS 2°-> la culture doit représenter en surface + de 5% de la SAU)
+**Calcul :** (Somme des espèces semées qui : 1re condition ->représentent plus de 5% dans la culture semée PUIS 2°-> la culture doit représenter en surface + de 5% de la SAU)
 
 ## Exemple de calcul
 
@@ -25,11 +25,11 @@ On calcul le nombre de plantes cultivées représentant + de 5% de la SAU (le +5
 
   - 25% dactyle
   - 25% Ray gras anglais
-  - 40% Fétuque des près
-  - 5% Paturin des pres
+  - 40% Fétuque des prés
+  - 5% Paturin des prés
   - 3% trèfle blanc
   - 2% trèfle violet
-  - --> 3 espèces (seules celles au dessus de 10% sont prise en compte)
+  - --> 3 espèces (seules celles au dessus de 10% sont prises en compte)
 
 - 10ha prairies permanentes
 
@@ -76,18 +76,18 @@ Total de la diversité de culture de l'exploitation "B": 14
   - --> 1 espèce
 - 28 ha de mélange fourragé
   - Niger: 30,5%
-  - Trèfle d'alexandrie: 28,5%
+  - Trèfle d'Alexandrie: 28,5%
   - Phacélie: 21%
-  - Radis chinois: 9% (Ne compte pas car-de 10% des espèces semés)
-  - Moutarde d'abyssinie: 11%
+  - Radis chinois: 9% (Ne compte pas, car moins de 10% des espèces semés)
+  - Moutarde d'Abyssinie: 11%
   - --> 4 espèces
 
 Total de la diversité de culture de l'exploitation "C": 7
 
 ## Qui nous donne la donnée
 
-- Les données du 1° sont renseignées par l'agriculteur ou l'agronome, et concerne les espèces semée dans une parcelle = une seule culture multi espèce, on regarde le % de chaque espèce dans cette culture.
-- Les données du 2° sont renseignées par l'agri ou l'agronome, et concerne la proportion que représente une parcelle dans l'ensemble de la ferme
+- Les données du 1° sont renseignées par l'agriculteur ou l'agronome, et concerne les espèces semées dans une parcelle = une seule culture multi espèce, on regarde le % de chaque espèce dans cette culture.
+- Les données du 2° sont renseignées par l'agriculteur ou l'agronome, et concernent la proportion que représente une parcelle dans l'ensemble de la ferme
 
 ## Dans la boussole
 

@@ -47,7 +47,7 @@ Rejoignez un ou plusieurs groupes de travail :
 
 ---
 
-## Qui sommes nous ?
+## Qui sommes-nous ?
 
 Un collectif d'associations et d'entreprises agroalimentaires qui soutiennent l'agriculture durable.
 

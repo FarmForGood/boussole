@@ -17,8 +17,8 @@ Nous utilisons cet indicateur pour estimer la viabilité du rythme d’un agricu
 
 Avec:
 
-- hsem: Nombre d'heure travaillées par semaine en moyenne
-- conge: Nombre de jour de congé pris par an
+- hsem: Nombre d'heures travaillées par semaine en moyenne
+- conge: Nombre de jours de congé pris par an
 
 {% math expression="cadre\\,de\\,vie = \\frac {(hsem * 52) - (conge*8)} {Norme UTA}" /%}
 
