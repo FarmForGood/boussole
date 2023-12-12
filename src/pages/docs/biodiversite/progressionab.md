@@ -19,13 +19,13 @@ Avec:
 
 {% math expression="prog_{ab} = surface_{ab} / sau" /%}
 
-Les surfaces en 1ère année de conversion sont comptabilisées avec un coefficient de 0,33 et les surface en 2ème année de conversion sont comptabilisées avec un coefficient de 0,66. Les surfaces certifiées bio ont un coefficient de 1.
+Les surfaces en 1re année de conversion sont comptabilisées avec un coefficient de 0,33 et les surfaces en 2e année de conversion sont comptabilisées avec un coefficient de 0,66. Les surfaces certifiées bio ont un coefficient de 1.
 
 ---
 
 ## D’où proviennent les données ?
 
-Les données Surfaces déclarées en AB + Surfaces en transition vers l’AB + SAU Totale sont à renseigner par l’agriculteur d'après sa déclaration PAC et sa certification Biologique
+Les données Surfaces déclarées en AB + Surfaces en transition vers l’AB + SAU Totale sont à renseigner par l’agriculteur d'après sa déclaration PAC et sa certification biologique
 
 ---
 

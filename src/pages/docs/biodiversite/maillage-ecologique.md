@@ -15,7 +15,7 @@ L’indicateur indique la surface de l’exploitation participant au maillage é
 
 L’indicateur est divisé en deux pour obtenir la densité de maillage dans les cultures et la densité de maillage dans les prairies. On additionne ensuite les deux en les pondérant par les surfaces respectives.
 
-Le calcul de l’indicateur repose sur la somme des surface des différents éléments du maillage écologique, qu’on divise par la surface totale de cultures ou de prairies. On calcule également la densité du maillage écologique de qualité supérieure (IQS) pour les deux types de surface. Si le seuil IQS est supérieur au seuil du maillage classique, ce dernier est augmenté de 1 unité. Dans tous les autres cas de figure, le seuil final est celui du maillage classique.
+Le calcul de l’indicateur repose sur la somme des surfaces des différents éléments du maillage écologique, qu’on divise par la surface totale de cultures ou de prairies. On calcule également la densité du maillage écologique de qualité supérieure (IQS) pour les deux types de surface. Si le seuil IQS est supérieur au seuil du maillage classique, ce dernier est augmenté de 1 unité. Dans tous les autres cas de figure, le seuil final est celui du maillage classique.
 
 Pour la densité de maillage écologique dans les cultures, on ajoute au calcul le contrôle de la conditionnalité selon l’indicateur BCAE8 de la PAC. Il est impératif de valider cette condition pour obtenir un score plus haut que 1.
 

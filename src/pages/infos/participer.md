@@ -1,9 +1,9 @@
 ---
 title: Participer au travail sur la boussole
-description: Venez échanger avec nous.
+description: venez échanger avec nous.
 ---
 
-Nous sommes toujours à la recherche de retours, d'intéractions avec des partenaires actifs dans le même domaine que nouss. Remplissez le formulaire de contact si vous êtes intéressés par l'initative Open Compass.
+Nous sommes toujours à la recherche de retours, d'interactions avec des partenaires actifs dans le même domaine que nous. Remplissez le formulaire de contact si vous êtes intéressés par l'initiative Open Compass.
 
 ---
 
