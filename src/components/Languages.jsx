@@ -14,9 +14,9 @@ export default function Languages({ language, toggleLanguage }) {
   return (
     <>
       {lngs.map((l) => (
-        <>
+        <span key={l.locale}>
           <a
-            key={l.locale}
+            
             className={
               l.locale == language
                 ? 'text-sm no-underline'
@@ -31,7 +31,7 @@ export default function Languages({ language, toggleLanguage }) {
             />
             {l.name}
           </a>{' '}
-        </>
+        </span>
       ))}
     </>
   )
