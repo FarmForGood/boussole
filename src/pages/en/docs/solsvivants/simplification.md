@@ -15,13 +15,13 @@ L'indicateur STIR est un indicateur développé par USDA (2012). Il est calculé
 
 ## Comment est-ce calculé ?
 
-Pour chaque machine, des valeurs indicatives ont été fixées pour la vitesse et la profondeur de travail ainsi que la proportion de sol perturbée. Il est toutefois possible de modifier ces valeurs selon l’utilisation faite de la machine, hormis pour les machines à prise de force (Herse rotative et herse bio fraise). Compléter ou modifier uniquement les cases blanches de l'onglet "STIR par culture", ne pas modifier les valeurs de l'onglet "Machines". En cas de modification d'au moins un des trois paramètres (vitesse, profondeur ou surface perturbée), le STIR est calculé automatiquement et renseigné dans la partie « STIR calculé ». Il peut être comparé au « STIR référence ».
+Pour chaque machine, des valeurs indicatives ont été fixées pour la vitesse et la profondeur de travail ainsi que la proportion de sol perturbé. Il est toutefois possible de modifier ces valeurs selon l’utilisation faite de la machine, hormis pour les machines à prise de force (Herse rotative et herse bio fraise). Compléter ou modifier uniquement les cases blanches de l'onglet "STIR par culture", ne pas modifier les valeurs de l'onglet "Machines". En cas de modification d'au moins un des trois paramètres (vitesse, profondeur ou surface perturbée), le STIR est calculé automatiquement et renseigné dans la partie « STIR calculé ». Il peut être comparé au « STIR référence ».
 
 Le STIR peut également être calculé manuellement pour toute machine absente ou différente de la liste de référence:
 
 Avec
 
-- _Aggr_: Coefficient d'aggresivité
+- _Aggr_: Coefficient d'agressivité
 - _profondeur_: profondeur de l'intervention en inches
 - _vitesse_: vitesse de la machine en miles par heure
 
@@ -33,8 +33,8 @@ A l'échelle de l'exploitation, on fait une moyenne des scores des parcelles pon
 
 Avec
 
-- _pert_: indicateur de perturbation du STIR pour une invervention
-- _surface_: la surface de la percelle en ha
+- _pert_: indicateur de perturbation du STIR pour une intervention
+- _surface_: la surface de la parcelle en ha
 - _SAU_: la SAU de l'exploitation
 
 {% math expression="perturbation\\,du\\,sol = \\frac {(\\sum_{int}^{} pert) * surface} {SAU}" /%}
@@ -139,7 +139,7 @@ Les données sont renseignées par l'agriculteur d'après son carnet de culture 
 
 ## Référence et méthodologie:
 
-Le fonctionnement du STIR est basé sur les données générées par RUSLE 2 (Revised Universal Soil Loss Equation 2), également créé par l'USDA et le NRCS et qui est une revue de RUSLE 1 (prise en compte de certaines améliorations : caractéristiques de sédimentation, effets des résidus,...).
+Le fonctionnement du STIR est basé sur les données générées par RUSLE 2 (Revised Universal Soil Loss Equation 2), également créé par l'USDA et le NRCS et qui est une revue de RUSLE 1 (prise en compte de certaines améliorations : caractéristiques de sédimentation, effets des résidus...).
 
 Ces programmes mathématiques ont été mis en place par différents chercheurs et servent à aider à la protection des sols, à l’échelle du champ (Foster, 2013)
 

@@ -9,7 +9,7 @@ Quantité d'énergie produite (gCal) sous forme de végétaux, animaux, énergie
 
 ## Unité
 
-Energie Brute.
+Energie brute.
 
 ## Comment est-ce calculé ?
 
@@ -17,23 +17,23 @@ On calcule : Gcal produites/Gcal consommées.
 
 Pour un exemple, nous allons prendre des équations simplifiées.
 
-L’objectif des parties "Efficience des intrants" & "Rendement SAU Moyen" ont en commun l’unité de mesure : exprimé en Energie Brute. Il est nécessaire de faire le solde de tous les flux de matière qui rentrent, et de ce qui sortent. Pour cela, nous utilisons une valeur en énergie brute, afin de pouvoir comparer les données entre elles (il existe 4 types d'énergies : Brute, Digestible, Métabolisable, Nette)
+L’objectif des parties "Efficience des intrants" & "Rendement SAU Moyen" ont en commun l’unité de mesure : exprimé en Energie brute. Il est nécessaire de faire le solde de tous les flux de matière qui rentrent, et de ce qui sortent. Pour cela, nous utilisons une valeur en énergie brute, afin de pouvoir comparer les données entre elles (il existe 4 types d'énergies : Brute, Digestible, Métabolisable, Nette)
 
-Nous cherchons à sommer tous les flux entrants et à les diviser par tout les flux sortants. Dans un contexte agricole, nous allons diviser une ferme en trois parties, afin de faciliter les calculs. Les différentes parties seront notées comme suit:
+Nous cherchons à sommer tous les flux entrants et à les diviser par tous les flux sortants. Dans un contexte agricole, nous allons diviser une ferme en trois parties, afin de faciliter les calculs. Les différentes parties seront notées comme suit:
 
 - Végétale = A
 - Animal = B
 - Ferme = C
 
-Chaque partie à des intrants et sortants, indiqué par un poids (tonne ou kg) que nous allons multiplier par leur valeur énergétique brute. Cf Tableau "Tables des compositions élémentaires" sur le drive 14-Espace travail des stagiaires → André→ Indicateurs→ Tables
+Chaque partie à des intrants et sortants, indiqués par un poids (tonne ou kg) que nous allons multiplier par leur valeur énergétique brute. Cf Tableau "Tables des compositions élémentaires" sur le drive 14-Espace travail des stagiaires → André→ Indicateurs→ Tables
 
 **Partie A**:
 
 - Culture Surface
-- Fertilisation Minérale(quantité ou unité N /ha)
+- Fertilisation Minérale (quantité ou unité N /ha)
 - Fertilisation organique(quantité ou unité N /ha)
 - Rendement CP,CI,
-- Paille (leurs part exporté restitué, autoconsommé, vendue…)
+- Paille (leurs parts exportées restituée, consommée, vendue…)
 
 **Partie B**:
 
@@ -43,7 +43,7 @@ Chaque partie à des intrants et sortants, indiqué par un poids (tonne ou kg) q
 - Nature de l’aliment
 - Quantité de l’aliment provenance de l’aliment
 - Nature de la Litière provenance
-- Quantité Effluents vendu quantité
+- Quantité Effluents vendus quantité
 
 **Partie C**:
 
@@ -58,7 +58,7 @@ Chaque partie à des intrants et sortants, indiqué par un poids (tonne ou kg) q
 
 **Production** Partie A:
 
-Somme (Superficie de la culture 1 (en ha) _ rendement total de la CP1 (en tonne/ha) _ coef de la culture CP1 (en MJ/Tonne) +Superficie de la culture intermédiaire 1 (en ha) _ rendement total de la CI1 (en tonne/ha) _ coef de la culture CI1 (en MJ/Tonne) + +(Superficie de la culture “N” (en ha) _ rendement de la culture ”N” (en tonne/ha) _ coef de la culture “N” (en MJ/Tonne)…)
+Somme (Superficie de la culture 1 (en ha) _ rendement total de la CP1 (en tonne/ha) _ coef de la culture CP1 (en MJ/tonne) +Superficie de la culture intermédiaire 1 (en ha) _ rendement total de la CI1 (en tonne/ha) _ coef de la culture CI1 (en MJ/tonne) + +(Superficie de la culture “N” (en ha) _ rendement de la culture ”N” (en tonne/ha) _ coef de la culture “N” (en MJ/tonne)…)
 
 **Consommation** Partie A:
 
@@ -78,7 +78,7 @@ Somme (Production d’énergie électrique (en kWh/an)*coef de l’énergie éle
 
 **Consommation** Partie C
 
-Energies directes : Somme (Fioul domestique + Gazoil d’ETA) (en L)_coef Fioul (en MJ/L) +Essence(en L) _ coef Essence (en MJ/L)+ Compteurs Electrique (en mWh) + Gaz (en M3)\*Coef gaz (en MJ Autres (unité au choix))
+Energies directes : Somme (Fioul domestique + Gazoil d’ETA) (en L)_coef Fioul (en MJ/L) +Essence(en L) _ coef Essence (en MJ/L)+ Compteurs Electriques (en mWh) + Gaz (en M3)\*Coef gaz (en MJ autres (unité au choix))
 
 -> On réalise une somme de toutes les Productions, en faisant attention aux unités et leurs compatibilités
 
@@ -86,10 +86,10 @@ Energies directes : Somme (Fioul domestique + Gazoil d’ETA) (en L)_coef Fioul 
 
 ## D’où proviennent les données ?
 
-Les données du 1° sont renseignées par l'agriculteur ou l'agronome d'apres la comptablité de gestion, les factures d'achat et de vente, les relevées de compteurs.
+Les données du 1° sont renseignées par l'agriculteur ou l'agronome d'après la comptabilité de gestion, les factures d'achat et de vente, les relevés de compteurs.
 
 - Min : 1 on considère que le plancher est de produire autant que ce qui est utilisé pour la production
-- Max : 10 On considère qu'un bon objectif est d'être capable de produire 10 fois plus d'énergie qui a été consommé
+- Max : 10 on considère qu'un bon objectif est d'être capable de produire 10 fois plus d'énergie qui a été consommée
 
 ---
 

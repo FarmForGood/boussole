@@ -1,17 +1,17 @@
 ---
 title: Autonomie alimentaire de l'élevage
-description: Nous utilisons l’indicateur pour observé l’autonomie alimentaire de la ferme sur l’atelier animal.
+description: Nous utilisons l’indicateur pour observer l’autonomie alimentaire de la ferme sur l’atelier animal.
 ---
 
 ## Description
 
-Nous utilisons l’indicateur pour observé l’autonomie alimentaire de la ferme sur l’atelier animal.
+Nous utilisons l’indicateur pour observer l’autonomie alimentaire de la ferme sur l’atelier animal.
 
 ---
 
 ## Unité
 
-Kilos de Matière Séche (MS) par Unité Grand Bovin (UGB)
+Kilos de matière sèche (MS) par Unité Grand Bovin (UGB)
 
 ## Comment est-ce calculé ?
 
@@ -19,16 +19,16 @@ Si la ferme dispose de moins de 0.2 UGB/ha, on retire l'indicateur de la boussol
 
 Avec:
 
-- _MS_: Matière Séche achetée (en tonnes)
+- _MS_: Matière Sèche achetée (en tonnes)
 - _UGB_: Nombre d'UGB
 
 {% math expression="autonomie\\,alimentaire = (MS / UGB) * 1000" p="6" /%}
 
-**Tonne de MS acheté** = Somme tous les aliments achetés \* leur coefficient de matière sèche
+**Tonne de MS achetée** = Somme tous les aliments achetés \* leur coefficient de matière sèche
 
 Lorsque c'est un aliment ou fourrage sans valeurs, saisir la valeur de base à 87% de MS.
 
-Les fourrages et concentrés ont des taux de MS très variables, l’agriculteur fourni donc cette donnée car elle lui est propre.
+Les fourrages et concentrés ont des taux de MS très variables, l’agriculteur fournit donc cette donnée car elle lui est propre.
 
 ---
 
@@ -75,23 +75,23 @@ L'autonomie alimentaire est de:
 
 Cette méthodologie est simple à mettre en place, la donnée est facile d’accès et permet une représentation efficace de la situation de la ferme.
 
-La données permet de prendre du recul quant à la situation actuelle de la gestion de la ferme, et ainsi de mettre en place des objectifs simple et cohérents pour l’éleveur.
+La donnée permet de prendre du recul quant à la situation actuelle de la gestion de la ferme, et ainsi de mettre en place des objectifs simples et cohérents pour l’éleveur.
 
-Un biais assez fort est la possible sous nutrition des animaux. Cependant dans une majorité des cas l’agriculteur ne laisse pas son bétail en manque d’aliments.
+Un biais assez fort est la possible sous-nutrition des animaux. Cependant dans une majorité des cas l’agriculteur ne laisse pas son bétail en manque d’aliments.
 
 ---
 
 ## D’où proviennent les données ?
 
-Les données sont renseignées par l'agriculteur d'après ces factures d'achat et les relevés d'effectifs disponibles à l'arsia-Cerise (https://cerise.arsia.be/). Les donnéees sont ensuite encodées par l'agronome.
+Les données sont renseignées par l'agriculteur d'après ses factures d'achat et les relevés d'effectifs disponibles à l'Arsia-Cerise (https://cerise.arsia.be/). Les données sont ensuite encodées par l'agronome.
 
 ---
 
 ## Référence et méthodologie:
 
-[MAEC MB13 sur l’importance de l’autonomie fourragère et la volonté de la PAC d’accompagner les éleveurs vers des pratiques plus durable et résilientes](https://agriculture.wallonie.be/maec-autonomie-fourragere)
+[MAEC MB13 sur l’importance de l’autonomie fourragère et la volonté de la PAC d’accompagner les éleveurs vers des pratiques plus durables et résilientes](https://agriculture.wallonie.be/maec-autonomie-fourragere)
 
-Dans un contexte de plus en plus instable climatiquement et politiquement, les aliments de bétails sont sujets à de fortes variations de prix et de disponibilités. La volonté de sécuriser l’approvisionnement en aliments est une réalité qui redonne aux éleveurs la main mise sur la quantité et le coût de leurs besoins, objectif important à moyen et long terme.
+Dans un contexte instable climatiquement et politiquement, les aliments de bétails sont sujets à de fortes variations de prix et de disponibilités. La volonté de sécuriser l’approvisionnement en aliments est une réalité qui redonne aux éleveurs la mainmise sur la quantité et le coût de leurs besoins, objectif important à moyen et long terme.
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Couverture du sol
-description: couverture des sols agricols de l’exploitation.
+description: couverture des sols agricoles de l’exploitation.
 ---
 
 ## A propos de l'indicateur
@@ -26,14 +26,14 @@ Avec:
 ### Couverture Moisson
 
 → Si "Résidus broyés" = +21 jours
-→ Si "Pailles exportés" = + 0 jours
+→ Si "Pailles exportées" = + 0 jour
 → Si "Semis Direct sous couvert végétal" = +21 jours
 
 ### Couverture Couvert
 
 → Si ( TCS, Labour ou SD pour implantation du couvert) Alors [ -21 + ( date de destruction du couvert - date de semis du couvert ) ] ET Si valeur < 0 jour alors = 0 jour
 
-→ OU Si [ date de semis du couvert < date de récolte du précédent ] Alors [ - ( date de récolte précédent - date de semis du couvert ) ]
+→ OU Si [ date de semis du couvert < date de récolte du précédent ] Alors [ - ( date de récolte précédente - date de semis du couvert ) ]
 
 ### Couverture Culture
 

@@ -15,7 +15,7 @@ Kilos d'Azote par hectare
 
 ## Comment est-ce calculé ?
 
-C’est le pourcentage de la quantité d’azote fixée par le système via les légumineuses, recyclé par le couvert végétaux et apporté par la fertilisation organique locale (avec un barème décroissant en fonction de la distance d’approvisionnement), par rapport à la quantité d’azote totale apportée à la plante:
+C’est le pourcentage de la quantité d’azote fixé par le système via les légumineuses, recyclé par le couvert végétal et apporté par la fertilisation organique locale (avec un barème décroissant en fonction de la distance d’approvisionnement), par rapport à la quantité d’azote totale apportée à la plante:
 
 Barème décroissant :
 
