@@ -1,4 +1,4 @@
-export default function Languages({ language, toggleLanguage }) {
+export default function Languages({ language, switchLanguage }) {
   const lngs = [
     {
       locale: 'fr',
@@ -9,6 +9,11 @@ export default function Languages({ language, toggleLanguage }) {
       locale: 'en',
       name: 'English',
       flag: 'https://flagicons.lipis.dev/flags/4x3/gb.svg',
+    },
+    {
+      locale: 'nl',
+      name: 'Nederlands',
+      flag: 'https://flagicons.lipis.dev/flags/4x3/nl.svg',
     },
   ]
   return (
@@ -23,7 +28,7 @@ export default function Languages({ language, toggleLanguage }) {
                 : 'text-sm underline'
             }
             href="#"
-            onClick={toggleLanguage}
+            onClick={() => switchLanguage(l.locale)}
           >
             <img
               src={l.flag}

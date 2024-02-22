@@ -20,5 +20,16 @@
     "humicBalance": "Bilan Humique",
     "liveSoils": "Sols Vivants",
     "codeSample": "Unités : t MO/ha\nCalcul : Quantités d’humus - Quantités minéralisées.\nMin : -2 tMO/ha. \nMax : 2 tMO/ha"
+  },
+  "nl": {
+    "onThisPage": "Op dit pagina",
+    "next": "Volgende",
+    "previous": "Vorige",
+    "objectiveEvaluation": "Voor een objectieve evaluatie van landbouwpraktijken",
+    "helpUs": "Help om relevante indicatoren te verduidelijken",
+    "contribute": "Bijdragen",
+    "humicBalance": "Bilan Humique",
+    "liveSoils": "Sols Vivants",
+    "codeSample": "Unités : t MO/ha\nCalcul : Quantités d’humus - Quantités minéralisées.\nMin : -2 tMO/ha. \nMax : 2 tMO/ha"
   }
 }

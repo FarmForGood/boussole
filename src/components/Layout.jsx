@@ -121,23 +121,17 @@ export function Layout({ children, title, tableOfContents }) {
 
   const translations = locale[language]
 
-  function toggleLanguage() {
-    if (language === 'fr') {
-      setCookie('language', 'en', {
-        path: '/',
-      })
-      if (pathname === '/') {
-        router.push('/en')
-      } else {
-        router.push(pathname.replace('/fr', '/en'))
-      }
+  function switchLanguage(newLng) {
+    setCookie('language', newLng, {
+      path: '/',
+    })
+    if (pathname === '/') {
+      router.push('/' + newLng)
     } else {
-      setCookie('language', 'fr', {
-        path: '/',
-      })
-      router.push(pathname.replace('/en', '/fr'))
+      router.push(pathname.replace('/' + language, '/' + newLng))
     }
   }
+   
   let isHomePage = router.pathname === '/'
   let navigation = getNavigation(language)
   let allLinks = navigation.flatMap((section) => section.links)
@@ -236,7 +230,7 @@ export function Layout({ children, title, tableOfContents }) {
             {tableOfContents.length > 0 && (
               <>
                 <Languages
-                  toggleLanguage={toggleLanguage}
+                  switchLanguage={switchLanguage}
                   language={language}
                 />
                 <h2

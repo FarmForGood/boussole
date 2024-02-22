@@ -113,6 +113,120 @@ const FR_NAVIGATION = [
   },
 ]
 
+const NL_NAVIGATION = [
+  {
+    title: 'Overzicht',
+    links: [
+      { title: 'Over ons', href: '/', status: 'info' },
+      { title: 'Meewerken', href: '/infos/participer', status: 'join' },
+    ],
+  },
+  {
+    title: 'Levende bodems',
+    links: [
+      {
+        title: 'Humique met',
+        href: '/docs/solsvivants/bilanhumique',
+        status: 'done',
+      },
+      {
+        title: 'Bodembedekker',
+        href: '/docs/solsvivants/couverture',
+        status: 'done',
+      },
+      {
+        title: 'Vereenvoudigd bodemwerk',
+        href: '/docs/solsvivants/simplification',
+        status: 'done',
+      },
+      {
+        title: 'Soortenrijkdom',
+        href: '/docs/solsvivants/diversite',
+        status: 'done',
+      },
+    ],
+  },
+  {
+    title: 'Biodiversity and Water',
+    links: [
+      {
+        title: 'Transition to Organic Farming',
+        href: '/docs/biodiversite/progressionab',
+        status: 'done',
+      },
+      {
+        title: 'Ecological Network',
+        href: '/docs/biodiversite/maillage-ecologique',
+        status: 'done',
+      },
+      {
+        title: 'Spatial Fragmentation',
+        href: '/docs/biodiversite/fragmentation-spatiale',
+        status: 'done',
+      },
+      {
+        title: 'Nitrogen Leaching Resistance',
+        href: '/docs/biodiversite/lessivage',
+        status: 'done',
+      },
+    ],
+  },
+  {
+    title: 'Autonomy and Resilience',
+    links: [
+      {
+        title: 'Autonomie voedervoorziening van de veestapel',
+        href: '/docs/autonomieresilience/autonomie-alimentaire',
+        status: 'done',
+      },
+      {
+        title: 'Quality of Life',
+        href: '/docs/autonomieresilience/cadre-de-vie',
+        status: 'done',
+      },
+      {
+        title: 'Nitrogen Autonomy',
+        href: '/docs/autonomieresilience/autonomie-azote',
+        status: 'done',
+      },
+      {
+        title: 'Energy Independence',
+        href: '/docs/autonomieresilience/independance-energetique',
+        status: 'done',
+      },
+      {
+        title: 'Treatment Frequency Index (TFI)',
+        href: '/docs/wip?5',
+      },
+    ],
+  },
+  {
+    title: 'Profitability and Efficiency',
+    links: [
+      {
+        title: 'Input Efficiency',
+        href: '/docs/solsvivants/efficience-intrants',
+        status: 'done',
+      },
+      {
+        title: 'Hectare Yield',
+        href: '/docs/rentabilite/rendement-sau',
+        status: 'done',
+      },
+      {
+        title: 'Average Crop Gross Margin',
+        href: '/docs/rentabilite/marge-brute',
+        status: 'done',
+      },
+      {
+        title: 'Feed Efficiency',
+        href: '/docs/rentabilite/perfalim',
+        status: 'done',
+      },
+    ],
+  },
+]
+
 const EN_NAVIGATION = [
   {
     title: 'Overview',
@@ -232,5 +346,7 @@ export function getNavigation(language = 'fr') {
     return FR_NAVIGATION
   } else if (language === 'en') {
     return EN_NAVIGATION
+  } else if (language === 'nl') {
+    return NL_NAVIGATION
   }
 }
