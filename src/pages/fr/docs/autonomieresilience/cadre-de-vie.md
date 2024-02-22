@@ -1,11 +1,11 @@
 ---
 title: Cadre de vie
-description: Nous utilisons  cet indicateur pour estimé la viabilité du rythme d’un agriculteur
+description: Nous utilisons  cet indicateur pour estimer la viabilité du rythme d’un agriculteur
 ---
 
 ## Description
 
-Nous utilisons cet indicateur pour estimé la viabilité du rythme d’un agriculteur.
+Nous utilisons cet indicateur pour estimer la viabilité du rythme d’un agriculteur.
 
 ---
 
@@ -17,7 +17,7 @@ Nous utilisons cet indicateur pour estimé la viabilité du rythme d’un agricu
 
 Avec:
 
-- hsem: Nombre d'heure prestée par semaine en moyenne
+- hsem: Nombre d'heure travaillées par semaine en moyenne
 - conge: Nombre de jour de congé pris par an
 
 {% math expression="cadre\\,de\\,vie = \\frac {(hsem * 52) - (conge*8)} {Norme UTA}" /%}
@@ -34,7 +34,7 @@ Exemple avec 75 heures par semaine et 21 jours de congé par an:
 
 ## D’où proviennent les données ?
 
-Les données sont renseigné par l'agriculteur et encodée par l'agronome.
+Les données sont renseignées par l'agriculteur et encodées par l'agronome.
 
 ---
 

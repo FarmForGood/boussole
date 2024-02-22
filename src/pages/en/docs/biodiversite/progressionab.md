@@ -3,8 +3,7 @@ title: Progression vers l'AB
 description: Vers l'agriculture biologique.
 ---
 
-Le but de l’indicateur est d’observer où en est l’agriculteur dans sa conversion en Bio. La note est tournée pour « encourager » les agriculteurs en
-transition.
+Le but de l’indicateur est d’observer où en est l’agriculteur dans sa conversion en Bio. La note est tournée pour « encourager » les agriculteurs en transition.
 
 ---
 
@@ -20,13 +19,13 @@ Avec:
 
 {% math expression="prog_{ab} = surface_{ab} / sau" /%}
 
-Les surfaces en 1ère année de conversion sont comptabilisées avec un coefficient de 0,33 et les surface en 2ème année de conversion sont comptabilisées avec un coefficient de 0,66. LEs surfaces certifiées bio ont un coefficient de 1.
+Les surfaces en 1ère année de conversion sont comptabilisées avec un coefficient de 0,33 et les surface en 2ème année de conversion sont comptabilisées avec un coefficient de 0,66. Les surfaces certifiées bio ont un coefficient de 1.
 
 ---
 
 ## D’où proviennent les données ?
 
-Les données Surface déclaré en AB + Surface en transition vers l’AB + SAU Totale sont à renseigner par l’agriculteur/ à collecter par le questionnaire/ à récupérer de ses déclarations administratives.
+Les données Surfaces déclarées en AB + Surfaces en transition vers l’AB + SAU Totale sont à renseigner par l’agriculteur d'après sa déclaration PAC et sa certification Biologique
 
 ---
 

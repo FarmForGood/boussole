@@ -1,6 +1,6 @@
 ---
 title: Simplification du travail du sol
-description: Indique à quel point le sol est perturbé basé sur les types de travaux.
+description: Indique à quel point le sol est perturbé par les différents travaux de sol et les récoltes
 ---
 
 ## Description
@@ -16,6 +16,16 @@ L'indicateur STIR est un indicateur développé par USDA (2012). Il est calculé
 ## Comment est-ce calculé ?
 
 Pour chaque machine, des valeurs indicatives ont été fixées pour la vitesse et la profondeur de travail ainsi que la proportion de sol perturbée. Il est toutefois possible de modifier ces valeurs selon l’utilisation faite de la machine, hormis pour les machines à prise de force (Herse rotative et herse bio fraise). Compléter ou modifier uniquement les cases blanches de l'onglet "STIR par culture", ne pas modifier les valeurs de l'onglet "Machines". En cas de modification d'au moins un des trois paramètres (vitesse, profondeur ou surface perturbée), le STIR est calculé automatiquement et renseigné dans la partie « STIR calculé ». Il peut être comparé au « STIR référence ».
+
+Le STIR peut également être calculé manuellement pour toute machine absente ou différente de la liste de référence:
+
+Avec
+
+- _Aggr_: Coefficient d'aggresivité
+- _profondeur_: profondeur de l'intervention en inches
+- _vitesse_: vitesse de la machine en miles par heure
+
+{% math expression="STIR = \\sum_{ops} (aggr * 3.25 * profondeur_{inches} * vitesse_{mph} * 0.5)" /%}
 
 Chaque intervention listée pour une parcelle donne un score de perturbation du sol. Les différents scores sont additionnés pour la parcelle.
 
@@ -123,13 +133,13 @@ En supposant deux parcelles, une de blé et une d'orge
 
 ## D’où proviennent les données ?
 
-Les données sont renseigné par l'agriculteur et encodée par l'agronome.
+Les données sont renseignées par l'agriculteur d'après son carnet de culture et encodées par l'agronome.
 
 ---
 
 ## Référence et méthodologie:
 
-Le fonctionnement du STIR est basé sur les données générées par RUSLE 2 (Revised Universal Soil Loss Equation 2), également créé par la USDA et le NRCS et qui est une revue de RUSLE 1 (prise en compte de certaines améliorations : caractéristiques de sédimentation, effets des résidus,...).
+Le fonctionnement du STIR est basé sur les données générées par RUSLE 2 (Revised Universal Soil Loss Equation 2), également créé par l'USDA et le NRCS et qui est une revue de RUSLE 1 (prise en compte de certaines améliorations : caractéristiques de sédimentation, effets des résidus,...).
 
 Ces programmes mathématiques ont été mis en place par différents chercheurs et servent à aider à la protection des sols, à l’échelle du champ (Foster, 2013)
 

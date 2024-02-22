@@ -5,7 +5,7 @@ description: Objectif de biodiversité et objectif de rentabilité à correler
 
 ## Description
 
-En terres cultivable de pleins champs, la biodiversité se développe plus facilement en bordure qu’au centre de grandes parcelles. Réduire la taille des parcelles constitue un levier efficace pour améliorer les conditions d’accueil de la biodiversité. Les effets positifs se manifestent en dessous de 6ha. D’un autre coté nous pondérons les résultats avec la taille minimum pour un débit de chantier qui ne soit pas négatif, ce qui correspond à 8ha.
+En terres cultivable de pleins champs, la biodiversité se développe plus facilement en bordure qu’au centre de grandes parcelles. Réduire la taille des parcelles constitue un levier efficace pour améliorer les conditions d’accueil de la biodiversité. Les effets positifs se manifestent en dessous de 6ha. D’un autre coté nous pondérons les résultats avec la taille minimum pour un débit de chantier qui ne soit pas négatif, ce qui correspond à 8ha (d'après les études de la FNCUMA en 2018).
 
 ---
 
@@ -63,7 +63,7 @@ La parcelle d'orge est prise en compte vu que sa surface est supérieure ou éga
 
 ## D’où proviennent les données ?
 
-Les données sont renseigné par l'agriculteur et encodée par l'agronome.
+Les données sont renseignées par l'agriculteur d'après la déclaration PAC et encodées par l'agronome.
 
 ---
 

@@ -2,7 +2,8 @@ const FR_NAVIGATION = [
   {
     title: 'Présentation',
     links: [
-      { title: 'A propos', href: '/', status: 'info' },
+      { title: 'Présentation', href: '/', status: 'info' },
+      { title: 'A propos', href: '/apropos', status: 'info' },
       { title: 'Participer', href: '/infos/participer', status: 'join' },
     ],
   },

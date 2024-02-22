@@ -86,6 +86,7 @@ export default function PartnerLogos() {
     return (
       <a
         href={partner.url}
+        key={partner.url}
         target="_blank"
         style={{ boxShadow: 'none' }}
         rel="noreferrer"
