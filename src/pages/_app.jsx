@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import { slugifyWithCounter } from '@sindresorhus/slugify'
+import { CookiesProvider } from 'react-cookie'
 
 import { Layout } from '@/components/Layout'
 
@@ -71,9 +72,11 @@ export default function App({ Component, pageProps }) {
           content="agriculture, pratiques, evaluation, agroécologie, agriculture biologique"
         />
       </Head>
-      <Layout title={title} tableOfContents={tableOfContents}>
-        <Component {...pageProps} />
-      </Layout>
+      <CookiesProvider>
+        <Layout title={title} tableOfContents={tableOfContents}>
+          <Component {...pageProps} />
+        </Layout>
+      </CookiesProvider>
     </>
   )
 }

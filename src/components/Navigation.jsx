@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 import clsx from 'clsx'
+import { getLocalizedLink } from '@/utils/utils'
 
 function getIcon(status) {
   if (status === 'done') {
@@ -93,7 +94,7 @@ function getIcon(status) {
   )
 }
 
-export function Navigation({ navigation, className }) {
+export function Navigation({ navigation, className, language }) {
   let router = useRouter()
 
   return (
@@ -109,9 +110,12 @@ export function Navigation({ navigation, className }) {
               className="mt-2 space-y-2 border-l-2 border-slate-100 dark:border-slate-800 lg:mt-4 lg:space-y-4 lg:border-slate-200"
             >
               {section.links.map((link) => (
-                <li key={link.href} className="relative">
+                <li
+                  key={getLocalizedLink(link.href, language)}
+                  className="relative"
+                >
                   <Link
-                    href={link.href}
+                    href={getLocalizedLink(link.href, language)}
                     className={clsx(
                       'block w-full pl-3.5 before:pointer-events-none before:absolute before:-left-1 before:top-1/2 before:h-1.5 before:w-1.5 before:-translate-y-1/2 before:rounded-full',
                       link.href === router.pathname
