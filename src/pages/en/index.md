@@ -14,13 +14,13 @@ The Open Compass project aims to explain and validate the models used to calcula
 
 {% quick-links %}
 
-{% quick-link title="Living Soils" quarter="ne" href="/docs/livingsoils/humic-balance" description="Soil work sustainability." /%}
+{% quick-link title="Living Soils" quarter="ne" href="/en/docs/solsvivants/bilanhumique" description="Soil work sustainability." /%}
 
-{% quick-link title="Biodiversity and Water" quarter="se" href="/docs/biodiversity/transition-to-organic-farming" description="Biodiversity elements." /%}
+{% quick-link title="Biodiversity and Water" quarter="se" href="/en/docs/biodiversite/progressionab" description="Biodiversity elements." /%}
 
-{% quick-link title="Autonomy and Resilience" quarter="sw" href="/docs/wip" description="Autonomy measures." /%}
+{% quick-link title="Autonomy and Resilience" quarter="sw" href="/en/docs/autonomieresilience/autonomie-alimentaire" description="Autonomy measures." /%}
 
-{% quick-link title="Profitability and Efficiency" quarter="nw" href="/docs/wip" description="Profitability indicators." /%}
+{% quick-link title="Profitability and Efficiency" quarter="nw" href="/en/docs/solsvivants/efficience-intrants" description="Profitability indicators." /%}
 
 {% /quick-links %}
 
