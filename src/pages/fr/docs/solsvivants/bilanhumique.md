@@ -50,8 +50,8 @@ Rémy et Viaux (1982 cité par Roussel et al., 2001) “ont établi une estimati
 
 Tonnes de Matière Organique (MO) par hectare
 
-<=-2 t MO/ha = 0 
->= 2 t MO/ha = 1
+ <=-2 t MO/ha = 0 
+ >= 2 t MO/ha = 1
 
 ## Données nécessaires
 Le taux de carbone dans le sol est une donnée importante pour calculer le bilan humique.
