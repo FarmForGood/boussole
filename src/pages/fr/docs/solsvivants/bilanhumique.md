@@ -12,10 +12,6 @@ Les **Entrées** sont alimentées par des résidus aériens, des résidus racina
 
 Les **Sorties** sont alimentées par le pourcentage de MO dans le sol à l’instant T, avec un coefficient prenant en compte les types de sol, les données climatiques (pluviométrie et températures).
 
-## Unité
-
-Tonnes de Matière Organique (MO) par hectare
-
 ## Mode de Calcul
 
 Selon le modèle Henin-Dupuis
@@ -29,7 +25,6 @@ Le calcul de déroule entre la date de récolte de la culture N-1, et la date de
 ### Modèle de Hénin-Dupuis (modèle sur une année)
 
 {% math expression="Y_{t} = Y_{0} . e^{-K2t} + K_{1}.x.(1-e^{-K2t}) / K_{2}" p="6" /%}
-
 
 
 où
@@ -51,7 +46,17 @@ Le coefficient K2 est issu de la formule de Rémy et Marin Laflèche (1974 cité
 
 Rémy et Viaux (1982 cité par Roussel et al., 2001) “ont établi une estimation plus précise de ce coefficient en fonction de la température du sol”. Ce dernier n’est pas toujours utilisé.
 
-Quelques notions de conversion sont importante à mentionner :
+## Unité et valeur sur la boussole
+
+Tonnes de Matière Organique (MO) par hectare
+
+<=-2 t MO/ha = 0 
+>= 2 t MO/ha = 1
+
+## Données nécessaires
+Le taux de carbone dans le sol est une donnée importante pour calculer le bilan humique.
+
+## Quelques notions de conversion sont importantes à mentionner :
 
 - Pour obtenir l’équivalence en carbone, il faut multiplier le taux de MO par 0,58. Ainsi, 1 T de MO = 0,58 T de carbone.
 - Pour obtenir l’équivalence entre le carbone (pur) et le CO2 qui est l’unité utilisée dans ce calcul, il faut multiplier par 3,78. 
