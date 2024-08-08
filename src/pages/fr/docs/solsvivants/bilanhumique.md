@@ -54,7 +54,7 @@ Tonnes de Matière Organique (MO) par hectare
  >= 2 t MO/ha = 1
 
 ## Données nécessaires
-Le taux de carbone dans le sol est une donnée importante pour calculer le bilan humique.
+Le taux de carbone dans le sol est une donnée importante pour calculer le bilan humique ainsi que es informations sur les cultures et couverts mis en place.
 
 ## Quelques notions de conversion sont importantes à mentionner :
 
