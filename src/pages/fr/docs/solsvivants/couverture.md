@@ -5,17 +5,20 @@ description: couverture des sols agricols de l’exploitation.
 
 ## A propos de l'indicateur
 
-Nous utilisons l’indicateur pour comptabiliser la couverture des sols agricols de l’exploitation, enjeux d’érosion, qualité de l’eau , qualité du sol, intérêt de la production de biomasse perpétuel.
+Nous utilisons l’indicateur pour évaluer la couverture des sols agricoles de l’exploitation par les couverts végétaux et les cultures. Eviter d’avoir un sol nu est important pour : 
+  -	Protection de la vie biologique, apport de matières organiques et amélioration de la structure du sol ;
+  -	Prévention du lessivage des éléments nutritifs ;
+  -	Amélioration du stockage du carbone ;
+  -	Protection des sols contre l’érosion par le vent et les précipitations ; 
+  -	Protection de la biodiversité en fournissant gîte et couvert aux espèces sauvages ;
+  -	Enrayer le cycle de vie de certains ravageurs, maladies et adventices.
 
-Exprimé en pourcentage de couverture annuel pour l’assolement (une duré est entre la récolte de la culture précédente et la récolte de la culture de l’année)
-
----
 
 ## Mode de calcul
 
 Avec:
 
-- _CMoisson_: Couverture Moisson
+- _Crésidus_: Couverture résidus Culture N-1
 - _CCouvert_: Couverture Couvert
 - _CCulture_: Couverture Culture
 - _DRecolte_: Date de récolte de la culture
@@ -23,7 +26,7 @@ Avec:
 
 {% math expression="Couverture = \\frac {(CM + CCouvert + CCulture)} {(DRecolte - DPréc)}" p="6" /%}
 
-### Couverture Moisson
+### Couverture Résidus
 
 → Si "Résidus broyés" = +21 jours
 → Si "Pailles exportés" = + 0 jours
@@ -43,11 +46,14 @@ Avec:
 
 → ET Si [date de semis de la culture < date de récolte du précédent] Alors [ - ( date de récolte du précédent - date de semis de la culture ) ]
 
-## Origine des données
-
-Les données du 1° sont renseignées par l'agriculteur ou l'agronome.
-
-## Usage dans la boussole
+## Unité et valeurs sur la boussole
+C'est indicateur est exprimé en pourcentage de couverture annuelle pour l’assolement entre la récolte de l'année n-1 et la récolte de l'année n.
 
 - 0 → 65% de couverture de sol
-- 100 → 100% de couverture de sol
+- 1 → 100% de couverture de sol
+  
+## Données nécessaires
+
+La partie date de semis, récolte, destruction des itinéraires techniques de l'exploitation est nécessaire.
+
+
