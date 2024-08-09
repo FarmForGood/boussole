@@ -5,7 +5,7 @@ description: valoriser l'augmentation du nombre d'espèces, pour répondres aux 
 
 ## A propos de l'indicateur
 
-Le but de l’indicateur est de noter la diversité de plante cultivées sur la ferme. La note cherche à valoriser l'augmentation du nombre d'espèces, pour répondres aux enjeux agronomique de la maximisation/intensification végétale. Les prairies permanentes sont noté arbitrairement à 7 espèces. les prairies temporaires, comme les couverts sont comptabilisé en fonction du nombre d'espèces semées. Volontairement ce biais est conscient (toutes les graines semées ne pousserons peut-etre pas) mais nous encourageons la démarche. Les cultures principales sont compté au nombre d'espèce semée.
+Le but de l’indicateur est de noter la diversité de plante cultivées sur la ferme. Il donne une information sur l'agrobio La note cherche à valoriser l'augmentation du nombre d'espèces, pour répondres aux enjeux agronomique de la maximisation/intensification végétale. Les prairies permanentes sont noté arbitrairement à 7 espèces. les prairies temporaires, comme les couverts sont comptabilisé en fonction du nombre d'espèces semées. Volontairement ce biais est conscient (toutes les graines semées ne pousserons peut-etre pas) mais nous encourageons la démarche. Les cultures principales sont compté au nombre d'espèce semée.
 
 ---
 
