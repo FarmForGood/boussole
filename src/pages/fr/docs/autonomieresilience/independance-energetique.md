@@ -3,27 +3,23 @@ title: Indépendance énergétique
 description: Nous utilisons cet indicateur pour faire le point sur la production d’énergie de la ferme et sa consommation
 ---
 
-## Description
+## A propos de l'indicateur
 
-Nous utilisons cet indicateur pour faire le point sur la production d’énergie de la ferme et sa consommation. Le but étant de pouvoir rendre à la société une énergie renouvelable au moins l’équivalent que l’énergie renouvelable et fossile qui est utilisée sur la ferme.
-
-## Unité
-
-Pourcentage (numérateur et dénominateur en kWh)
+Le but de cet indicateur est de montrer l’indépendance énergétique de la ferme. Il tient compte de l’énergie produite à la ferme (panneaux photovoltaïque, unité de biogaz,…) par rapport au total de l’énergie consommée qui inclut le gaz, le mazout et l’électricité nécessaire sur l’exploitation. 
 
 ## Mode de calcul
 
 {% math expression="Ind.\\,énerg. = \\frac {\\sum_{} Consommations\\,énergétiques} {\\sum_{} Productions\\,d'énergie}" /%}
 
-## D'où proviennent les données
+## Unité et valeurs sur la boussole
 
-Les données du 1° sont renseignées par l'agriculteur ou l'agronome d'après le relevés des compteurs électriques, les factures et la comptabilité de gestion.
+Unité : % en kwh
 
-## Références
+Min = 0%, a ferme ne produit pas d'énergie
+Max =  100%, La ferme produit 100 % de son énergie nécessaire 
 
-Méthode interne
+## Données nécessaire de l'agrilculteur
 
-## {% compass quarter="nw" inline="true" /%} Dans la boussole
+Production d'énergie sur l'exploitation (panneaux solaires, biogaz,...) et consommation total de l'exploitation sont nécessaires. 
 
-Minimum : 0% La ferme consomme de l’énergie pour son fonctionnement et sa production mais n’en renvoie pas à la société
-Maximum : 100%, La ferme produit autant d’énergie renouvelable pour la société que ce qu’elle consomme.
+
