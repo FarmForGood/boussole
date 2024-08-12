@@ -46,14 +46,15 @@ Le coefficient K2 est issu de la formule de Rémy et Marin Laflèche (1974 cité
 
 Rémy et Viaux (1982 cité par Roussel et al., 2001) “ont établi une estimation plus précise de ce coefficient en fonction de la température du sol”. Ce dernier n’est pas toujours utilisé.
 
-## Unité et valeur sur la boussole
+## Unité et valeurs sur la boussole
 
-Tonnes de Matière Organique (MO) par hectare
+Unité : Tonnes de Matière Organique (MO) par hectare (t MO/ha)
 
- <=-2 t MO/ha = 0 
- >= 2 t MO/ha = 1
+- Min = -2 t MO/ha 
+- Max = 2 t MO/ha 
 
-## Données nécessaires
+## Données nécessaires de l'agriculteur 
+
 Le taux de carbone dans le sol est une donnée importante pour calculer le bilan humique ainsi que es informations sur les cultures et couverts mis en place.
 
 ## Quelques notions de conversion sont importantes à mentionner :
