@@ -2,16 +2,9 @@
 title: Performance alimentaire
 description: Performance alimentaire
 ---
+## A propos de l'indicateur
 
-La performance alimentaire ou performance nourricière est son potentiel à nourrir, soit le nombre maximum de personnes nourries par l’exploitation annuellement. Cet indicateur vise à rappeler la fonction première de l’agriculture : nourrir les hommes.
-
-Bien qu’il ne prenne pas en compte tous les besoins nutritionnels, cet indicateur permet une estimation représentative et homogène des différentes fermes.
-
----
-
-Unité: Nombre de personnes nourries par hectare et par an
-
----
+Cet indicateur va décrire la performance alimentaire de la culture, de l’élevage et de l’exploitation, soit le nombre maximum de personnes nourries par hectare sur l’exploitation annuellement. Cet indicateur vise à rappeler la fonction première de l’agriculture : nourrir les hommes.
 
 ## Comment est-ce calculé ?
 
@@ -29,21 +22,9 @@ Les indicateurs nutritionnels sont l’énergie (en calories), les protéines (e
 
 Les calories et protéines non consommables par l’homme ne sont pas comptabilisées.
 
----
+## Unité et valeurs sur la boussole
 
-## D’où proviennent les données ?
-
-Les données sont à renseigner par l’agriculteur.
-
----
-
-## Référence et méthodologie:
-
-[Perfalim (CEREOPA)](http://perfalim.com/fr/)
-
----
-
-## {% compass quarter="nw" inline="true" /%} Dans la boussole
+Unité: Nombre de personnes nourries par hectare et par an
 
 - Valeur minimale : 0 personnes/ha.an
 - Valeur maximale : 22,37 personnes/ha.an
@@ -51,4 +32,11 @@ Les données sont à renseigner par l’agriculteur.
 
 Cette limite est calculée en divisant la population belge par la SAU belge.
 
----
+## Données nécessaires de l'agriculteur
+
+Les rendements des culture et animaux sont nécessaire.
+
+## Référence et méthodologie:
+
+[Perfalim (CEREOPA)](http://perfalim.com/fr/)
+
