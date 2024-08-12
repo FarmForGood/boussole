@@ -26,9 +26,8 @@ Les calories et protéines non consommables par l’homme ne sont pas comptabili
 
 Unité: Nombre de personnes nourries par hectare et par an
 
-- Valeur minimale : 0 personnes/ha.an
-- Valeur maximale : 22,37 personnes/ha.an
-- 70% : 15,66 personnes/ha.an
+- Min : 0 personnes/ha.an
+- Max : 22,37 personnes/ha.an
 
 Cette limite est calculée en divisant la population belge par la SAU belge.
 
