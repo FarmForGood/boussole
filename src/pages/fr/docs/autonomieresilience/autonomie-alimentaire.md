@@ -3,17 +3,17 @@ title: Autonomie alimentaire de l'élevage
 description: Nous utilisons l’indicateur pour observer l’autonomie alimentaire de la ferme sur l’atelier animal.
 ---
 
-## Description
+## A propos de l'indicateur
 
-Nous utilisons l’indicateur pour observer l’autonomie alimentaire de la ferme sur l’atelier animal.
+Nous utilisons l’indicateur pour observer l’autonomie alimentaire de la ferme sur l’atelier animal. Dans un contexte instable climatiquement et politiquement, les aliments de bétails sont sujets à de fortes variations de prix et de disponibilités. La volonté de sécuriser l’approvisionnement en aliments est une réalité qui redonne aux éleveurs la mainmise sur la quantité et le coût de leurs besoins, objectif important à moyen et long terme.
 
----
+Cette méthodologie est simple à mettre en place, la donnée est facile d’accès et permet une représentation efficace de la situation de la ferme.
 
-## Unité
+La donnée permet de prendre du recul quant à la situation actuelle de la gestion de la ferme, et ainsi de mettre en place des objectifs simples et cohérents pour l’éleveur.
 
-Kilos de matière sèche (MS) par Unité Grand Bovin (UGB)
+Un biais assez fort est la possible sous-nutrition des animaux. Cependant dans une majorité des cas l’agriculteur ne laisse pas son bétail en manque d’aliments.
 
-## Comment est-ce calculé ?
+## Mode de calcul
 
 Si la ferme dispose de moins de 0.2 UGB/ha, on retire l'indicateur de la boussole car l'élevage n'est pas significatif.
 
@@ -30,7 +30,16 @@ Lorsque c'est un aliment ou fourrage sans valeurs, saisir la valeur de base à 8
 
 Les fourrages et concentrés ont des taux de MS très variables, l’agriculteur fournit donc cette donnée car elle lui est propre.
 
----
+## Unité et valeurs sur la boussole
+
+Kilos de matière sèche (MS) par Unité Grand Bovin (UGB)
+
+- Min = 2500 kg --> Tout ou quasi des besoins est acheté 
+- Max = 300 kq --> complément à la ration donc marginal 
+
+## Données nécessaire de l'agriculteur
+
+La quantité d'aliment acheté par la ferme.
 
 ## Exemple
 
@@ -69,34 +78,9 @@ L'autonomie alimentaire est de:
 
 (en kg de MS par UGB)
 
----
 
-## Explications
-
-Cette méthodologie est simple à mettre en place, la donnée est facile d’accès et permet une représentation efficace de la situation de la ferme.
-
-La donnée permet de prendre du recul quant à la situation actuelle de la gestion de la ferme, et ainsi de mettre en place des objectifs simples et cohérents pour l’éleveur.
-
-Un biais assez fort est la possible sous-nutrition des animaux. Cependant dans une majorité des cas l’agriculteur ne laisse pas son bétail en manque d’aliments.
-
----
-
-## D’où proviennent les données ?
-
-Les données sont renseignées par l'agriculteur d'après ses factures d'achat et les relevés d'effectifs disponibles à l'Arsia-Cerise (https://cerise.arsia.be/). Les données sont ensuite encodées par l'agronome.
-
----
-
-## Référence et méthodologie:
+## Référence :
 
 [MAEC MB13 sur l’importance de l’autonomie fourragère et la volonté de la PAC d’accompagner les éleveurs vers des pratiques plus durables et résilientes](https://agriculture.wallonie.be/maec-autonomie-fourragere)
 
-Dans un contexte instable climatiquement et politiquement, les aliments de bétails sont sujets à de fortes variations de prix et de disponibilités. La volonté de sécuriser l’approvisionnement en aliments est une réalité qui redonne aux éleveurs la mainmise sur la quantité et le coût de leurs besoins, objectif important à moyen et long terme.
 
----
-
-## {% compass quarter="nw" inline="true" /%} Dans la boussole
-
-Valeur Maximum = 300 kg de MS --> complément à la ration donc marginal (Le 100% de la boussole)
-
-Valeur Minimum = 2500 kg de MS --> Tout ou quasi des besoins est acheté ( Le 0% de la boussole)
