@@ -49,10 +49,10 @@ Avec:
 ## Unité et valeurs sur la boussole
 C'est indicateur est exprimé en pourcentage de couverture annuelle pour l’assolement entre la récolte de l'année n-1 et la récolte de l'année n.
 
-- 0 → 65% de couverture de sol
-- 1 → 100% de couverture de sol
+- Min = 65% de couverture de sol
+- Max = 100% de couverture de sol
   
-## Données nécessaires
+## Données nécessaires de l'agriculteur
 
 La partie date de semis, récolte, destruction des itinéraires techniques de l'exploitation est nécessaire.
 
