@@ -34,17 +34,13 @@ Avec:
 {% math expression="CP = sem + prot + desh + meca + fert + recolte" size="base" p="1" /%}
 
 ## Unité et valeurs sur la boussole
+
 Unité: €/ha de SAU
 
-Les valeurs seuils choisies correspondent à :
-- Valeur Minimale : jusqu’à **125€/ha** de SAU = 0% de la Boussole
-- Valeur Médiane : **1139€/ha** de SAU = 70% de la Boussole
-- Valeur Maximale : à partir de **1449€/ha** de SAU= 100% de la Boussole
+- Min = jusqu’à **125€/ha** de SAU = 0% de la Boussole
+- Valeur Médiane = **1139€/ha** de SAU = 70% de la Boussole
+- Max = à partir de **1449€/ha** de SAU= 100% de la Boussole
   
-- un minima qu’est le droit au paiement de base
-- un médian qu’est la marge brute moyenne en Wallonie sur 10 ans.
-
-
 ## Données nécessaire de l'agrilculteur
 
 L'ensemble des coûts et produits de chaque culture sont nécessaires. 
