@@ -2,25 +2,16 @@
 title: Marge brute
 description: Marge brute.
 ---
+## A propos de l'indicateur
 
-Nous utilisons la valeur de la marge Brute, autrement dit la capacité de la ferme à dégager une marge sur les surfaces cultivées ou encore description du CRA-W _au sein d’un même exercice comptable, l’efficacité avec laquelle l’exploitation génère des produits au moyen de ses charges opérationnelles affectées_.
+La marge brute traduit l’efficacité d’une exploitation à générer des produits aux moyens de ses charges opérationnelles affectées. Nous utilisons cet indicateur uniquement pour les cultures. Il est égal au chiffre d’affaires de la culture incluant la vente et les primes PAC soustrait des charges variables, le tout ramené à l’hectare.
+Cet indicateur permet une première évaluation de la rentabilité des cultures de l’exploitation. Il ne tient pas compte des charges fixes ni du paiement de l’agriculteur, mais il va permettre d’évaluer sa capacité à se générer un revenu. 
 
-Les valeurs seuils choisies correspondent à :
 
-- un minima qu’est le droit au paiement de base
-- un médian qu’est la marge brute moyenne en Wallonie sur 10 ans.
-
----
-
-Unité: €/ha de SAU
-
----
-
-## Comment est-ce calculé ?
+## Mode de calcul
 
 La marge brute s'obtient en soustrayant du Chiffre d'Affaire moyen des cultures les charges proportionnelles (semences, protection des plantes, désherbage, mécanisation, fertilisation, récolte et autres)
 
-Dit Autrement: On réalise une moyenne pondéré des ha compté dans la SAU par leur valeur de marge moyenne
 
 Avec:
 
@@ -28,7 +19,7 @@ Avec:
 - _CP_: Charges proportionnelles
 - _marge_brute_: Marge Brute
 
-{% math expression="marge brute = CAM - CP" /%}
+{% math expression="marge brute = CAM - CP"}
 
 Avec:
 
@@ -42,21 +33,21 @@ Avec:
 
 {% math expression="CP = sem + prot + desh + meca + fert + recolte" size="base" p="1" /%}
 
----
+## Unité et valeurs sur la boussole
+Unité: €/ha de SAU
 
-## D’où proviennent les données ?
-
-Les données sont à renseigner par l’agriculteur.
-
----
-
-## {% compass quarter="nw" inline="true" /%} Dans la boussole
-
+Les valeurs seuils choisies correspondent à :
 - Valeur Minimale : jusqu’à **125€/ha** de SAU = 0% de la Boussole
 - Valeur Médiane : **1139€/ha** de SAU = 70% de la Boussole
 - Valeur Maximale : à partir de **1449€/ha** de SAU= 100% de la Boussole
+  
+- un minima qu’est le droit au paiement de base
+- un médian qu’est la marge brute moyenne en Wallonie sur 10 ans.
 
----
+
+## Données nécessaire de l'agrilculteur
+
+L'ensemble des coûts et produits de chaque culture sont nécessaires. 
 
 ## Références
 
