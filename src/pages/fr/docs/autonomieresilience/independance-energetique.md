@@ -18,7 +18,7 @@ Unité : % en kwh
 Min = 0%, a ferme ne produit pas d'énergie
 Max =  100%, La ferme produit 100 % de son énergie nécessaire 
 
-## Données nécessaire de l'agrilculteur
+## Données nécessaires de l'agrilculteur
 
 Production d'énergie sur l'exploitation (panneaux solaires, biogaz,...) et consommation total de l'exploitation sont nécessaires. 
 
