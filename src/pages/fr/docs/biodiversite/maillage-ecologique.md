@@ -1,17 +1,18 @@
 ---
 title: Maillage Ecologique
-description: Maillage Ecologique.
+description: Ensemble des éléments naturels qui participent à la préservation de la faune et flore
 ---
 
-Le maillage écologique décrit l’ensemble des éléments naturels qui créent un réseau favorisant le développement et la survie de la faune et de la flore. (Source : Sillon Belge)
+## A propos de l'indicateur
 
-L’indicateur indique la surface de l’exploitation participant au maillage écologique en cultures ou en prairies permanentes. Les éléments y participants sont : les arbres isolés, les haies et alignements d’arbres, les bosquets, les arbustes, les mares, les fossés, les tournières enherbées, les bandes et parcelles aménagées, les cultures favorables à l’environnement, les prairies naturelles, les prairies à haute valeur biologique, les bandes en bord de champ, les jachères mellifères, les jachères et les prairies Natura 2000 (Source : Natagriwal)
+Cet indicateur a été développé par Natagriwal. Il permet de prendre en compte tous les éléments naturels (haies et alignement d’arbres, arbres isolés, mares, bosquets…) mis en place sur l’exploitation pour la préservation de la faune et la flore. 
 
-## Unité
+L’agriculteur a le choix de mettre en place sur sa ferme des mesures agro-environnementales et climatiques ainsi que des éco-régimes via la PAC. Ces mesures ont toutes un impact sur la biodiversité et le cumul de celle-ci a un impact encore plus conséquent. Le maillage écologique est important pour créer des habitats à certaines espèces, mais aussi des corridors pour le déplacement de celles-ci. 
 
-% de la surface couverte
 
-## Comment est-ce calculé ?
+## Mode de calcul
+
+L’indicateur calcule un score selon les éléments de maillage écologique en cultures ou en prairies permanentes mis en place sur l'exploitation. Les éléments y participants sont : les arbres isolés, les haies et alignements d’arbres, les bosquets, les arbustes, les mares, les fossés, les tournières enherbées, les bandes et parcelles aménagées, les cultures favorables à l’environnement, les prairies naturelles, les prairies à haute valeur biologique, les bandes en bord de champ, les jachères mellifères, les jachères et les prairies Natura 2000 (Source : Natagriwal)
 
 L’indicateur est divisé en deux pour obtenir la densité de maillage dans les cultures et la densité de maillage dans les prairies. On additionne ensuite les deux en les pondérant par les surfaces respectives.
 
@@ -72,16 +73,17 @@ Les seuils sont les suivants :
 {% /table %}
 
 ---
+## Unité et valeur sur la boussole
 
-## D’où proviennent les données ?
+Unité Score de 1 à 5
 
-Les données de surface du maillage écologique sont à renseigner par l’agriculteur.
+- Min = 1, très défavorable
+- Max = 5, très favorable
 
----
+## Données nécessaires de l'agriculteur
 
-## {% compass quarter="nw" inline="true" /%} Dans la boussole
+Les données de MAEC reprisent dans la PAC.
 
-Dans la boussole, les notes vont de 1 à 5. 1 correspond à “Très défavorable” et 5 à “Très favorable”
+## Référence
 
-- 0% sur la boussole si score de 1
-- 100% sur la boussole si score de 5
+Pyramide, un outil d’accompagnement pour évaluer et comprendre l’impact des pratiques agricoles sur la biodiversité, Louis de la Motte, Claude Dopagne et Julien Piqueray
