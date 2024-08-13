@@ -1,23 +1,17 @@
 ---
-title: Simplification du travail du sol
-description: Indique à quel point le sol est perturbé basé sur les types de travaux.
+title: STIR
+description: Simplification du travail du sol
 ---
 
-## Description
+## A propos de l'indicateur
 
-L'indicateur STIR est un indicateur développé par USDA (2012). Il est calculé à partir de la vitesse, la profondeur et le type de travail du sol ainsi que de la surface de sol perturbée. Plus l'indicateur est élevé, plus le sol est perturbé.
+L'indicateur STIR est un indicateur développé par USDA (2012). Il est calculé à partir de la vitesse, la profondeur et le type de travail du sol ainsi que de la surface de sol perturbée. Le résultat est un score par passage qui varie en 30 et 80. 
 
----
+Par exemple, un passage de charrue va avoir un score élevé jusqu’à 80 et un semi-direct qui ne nécessite qu’un passage sans enfouissement un score inférieur autour de 30. Au plus l’indicateur est bas, au moins le sol est dit “perturbé”, à l’inverse au plus, il est élevé, au plus le sol est “perturbé”. Il se calcule ensuite à la parcelle en sommant les STIR de chaque passage. Il a l’avantage d’aller plus loin que d’autres indices, car il compare des itinéraires techniques complets et tient compte de plusieurs paramètres.
 
-## Unité
+## Mode de calcul
 
-% par rapport à un seuil de référence (1800 heures par an selon la norme UTA)
-
-## Comment est-ce calculé ?
-
-Pour chaque machine, des valeurs indicatives ont été fixées pour la vitesse et la profondeur de travail ainsi que la proportion de sol perturbée. Il est toutefois possible de modifier ces valeurs selon l’utilisation faite de la machine, hormis pour les machines à prise de force (Herse rotative et herse bio fraise). Compléter ou modifier uniquement les cases blanches de l'onglet "STIR par culture", ne pas modifier les valeurs de l'onglet "Machines". En cas de modification d'au moins un des trois paramètres (vitesse, profondeur ou surface perturbée), le STIR est calculé automatiquement et renseigné dans la partie « STIR calculé ». Il peut être comparé au « STIR référence ».
-
-Chaque intervention listée pour une parcelle donne un score de perturbation du sol. Les différents scores sont additionnés pour la parcelle.
+Chaque intervention listée pour une parcelle donne un score de perturbation du sol. Les différents scores sont additionnés pour la parcelle. Pour chaque machine, des valeurs indicatives ont été fixées pour la vitesse et la profondeur de travail ainsi que la proportion de sol perturbée. 
 
 A l'échelle de l'exploitation, on fait une moyenne des scores des parcelles pondérée par leur SAU.
 
@@ -29,7 +23,18 @@ Avec
 
 {% math expression="perturbation\\,du\\,sol = \\frac {(\\sum_{int}^{} pert) * surface} {SAU}" /%}
 
----
+* les unités pour calculer le STIR sont les pouces et des inches, il faut donc convertir les km et cm pour arriver à un bon résultat.
+  
+## Unité et valeurs sur la boussole
+
+unité : score
+
+- Min = 200, ce qui correspond à un travail du sol plus intense
+- Max = 30, ce qui correspond à du semis direct
+
+## Données nécessaires de l'agriculteur
+
+Les machines utilisées pour chaque passage sont nécessaires ainsi que la vitesse et la profondeur. Si ces données ne peuvent être renseignées, une valeur de référence pour le type de machine est renseigné.
 
 ## Exemple
 
@@ -121,11 +126,6 @@ En supposant deux parcelles, une de blé et une d'orge
 
 {% math expression="\\frac { (54 * 12) + (131 * 16) } {28} = 98" /%}
 
-## D’où proviennent les données ?
-
-Les données sont renseigné par l'agriculteur et encodée par l'agronome.
-
----
 
 ## Référence et méthodologie:
 
@@ -133,13 +133,3 @@ Le fonctionnement du STIR est basé sur les données générées par RUSLE 2 (Re
 
 Ces programmes mathématiques ont été mis en place par différents chercheurs et servent à aider à la protection des sols, à l’échelle du champ (Foster, 2013)
 
----
-
-## {% compass quarter="nw" inline="true" /%} Dans la boussole
-
-Nous noterons la note sur le « radar » en pourcentage, elle sera proportionnelle
-
-- au score seuil de 30 correspondant à un sol non labouré et au 100% de la boussole
-- au seuil maximum de 200 correspondant au 0% et a un sol fortement perturbé.
-
-Plus un score est faible, plus il correspond à une moindre intensité de travail du sol et inversement.
