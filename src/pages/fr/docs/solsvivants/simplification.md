@@ -27,7 +27,7 @@ Avec
   
 ## Unité et valeurs sur la boussole
 
-unité : score
+Unité : score de chacun des passages
 
 - Min = 200, ce qui correspond à un travail du sol plus intense
 - Max = 30, ce qui correspond à du semis direct
