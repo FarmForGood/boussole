@@ -32,12 +32,12 @@ Les fourrages et concentrés ont des taux de MS très variables, l’agriculteur
 
 ## Unité et valeurs sur la boussole
 
-Kilos de matière sèche (MS) par Unité Grand Bovin (UGB)
+Unité : Kilos de matière sèche (MS) par Unité Grand Bovin (UGB)
 
 - Min = 2500 kg --> Tout ou quasi des besoins est acheté 
 - Max = 300 kq --> complément à la ration donc marginal 
 
-## Données nécessaire de l'agriculteur
+## Données nécessaires de l'agriculteur
 
 La quantité d'aliment acheté par la ferme.
 
