@@ -1,6 +1,6 @@
 ---
 title: Couverture du sol
-description: couverture des sols agricols de l’exploitation.
+description: Couverture des sols agricoles de l’exploitation.
 ---
 
 ## A propos de l'indicateur
