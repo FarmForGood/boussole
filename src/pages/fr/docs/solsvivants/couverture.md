@@ -47,7 +47,8 @@ Avec:
 → ET Si [date de semis de la culture < date de récolte du précédent] Alors [ - ( date de récolte du précédent - date de semis de la culture ) ]
 
 ## Unité et valeurs sur la boussole
-C'est indicateur est exprimé en pourcentage de couverture annuelle pour l’assolement entre la récolte de l'année n-1 et la récolte de l'année n.
+
+Unité : Cet indicateur est exprimé en pourcentage de couverture annuelle pour l’assolement entre la récolte de l'année n-1 et la récolte de l'année n.
 
 - Min = 65% de couverture de sol
 - Max = 100% de couverture de sol
