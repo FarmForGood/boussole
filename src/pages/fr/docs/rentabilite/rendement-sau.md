@@ -16,11 +16,10 @@ On calcule: Somme des énergies produites par toutes les cultures / SAU
 Les données d’entrées sont le rendement des cultures \* leur coeficient issue de la table de conversion en TEP
 
 
-## Unité et valeur sur la boussole
+## Unité et valeurs sur la boussole
 
 Unité : Gcal/ha
 
-Sur la boussole : 
 - Min : 5 Gcal/ ha 
 - Max : 30 Gcal/ha 
 
