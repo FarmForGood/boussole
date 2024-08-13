@@ -9,7 +9,7 @@ Le but de cet indicateur est de montrer l’indépendance énergétique de la fe
 
 ## Mode de calcul
 
-{% math expression="Ind.\\,énerg. = \\frac {\\sum_{} Consommations\\,énergétiques} {\\sum_{} Productions\\,d'énergie}" /%}
+{% math expression="Ind.\\,énerg. = \\frac {\\sum_{} Productions\\,énergétiques} {\\sum_{} Consommations\\,d'énergie}" /%}
 
 ## Unité et valeurs sur la boussole
 
