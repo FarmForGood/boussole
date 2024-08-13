@@ -1,23 +1,24 @@
 ---
 title: Efficience des intrants
-description: Quantité d'énergie produite (gCal) sous forme de végétaux, animaux, énergie renouvelable pour 1 gigacalorie consommée. Les données sont calculées en GigaCalories (Gcal)
+description: Quantité d'énergie produite sous forme de végétaux, animaux, énergie renouvelable pour 1 gigacalorie consommée 
 ---
 
-## Description
+## A propos de l'indicateur
 
-Quantité d'énergie produite (gCal) sous forme de végétaux, animaux, énergie renouvelable pour 1 gigacalorie consommée. Les données sont calculées en GigaCalories (Gcal)
+L’efficience des intrants est le rapport entre les énergies produites et les énergies consommées sur la ferme. Il se rapproche du principe de « l’efficacité énergétique » décrit par Ferrière et al. 
 
-## Unité
+Les énergies consommées comptabilisées sont : 
+-	Les énergies non renouvelables directes : fioul, électricité…
+-	Les énergies non renouvelables indirectes : énergies pour produire tous les intrants de la ferme : phyto, fertilisants organiques et minéraux, semences…
+-	Les flux intrants d’énergies brutes : l’énergie alimentaire, aliments d’élevage et litière. Les énergies autoconsommées ne sont volontairement pas prises en compte.
+  
+Les énergies produites prises en compte sont l’énergie brute de tout ce qui a été produit sur la ferme (animaux, culture, interculture et résidus).
 
-Energie Brute.
-
-## Comment est-ce calculé ?
+## Mode de calcul
 
 On calcule : Gcal produites/Gcal consommées.
 
-Pour un exemple, nous allons prendre des équations simplifiées.
-
-L’objectif des parties "Efficience des intrants" & "Rendement SAU Moyen" ont en commun l’unité de mesure : exprimé en Energie Brute. Il est nécessaire de faire le solde de tous les flux de matière qui rentrent, et de ce qui sortent. Pour cela, nous utilisons une valeur en énergie brute, afin de pouvoir comparer les données entre elles (il existe 4 types d'énergies : Brute, Digestible, Métabolisable, Nette)
+Il est nécessaire de faire le solde de tous les flux de matière qui rentrent, et de ce qui sortent. Pour cela, nous utilisons une valeur en énergie brute, afin de pouvoir comparer les données entre elles (il existe 4 types d'énergies : Brute, Digestible, Métabolisable, Nette)
 
 Nous cherchons à sommer tous les flux entrants et à les diviser par tout les flux sortants. Dans un contexte agricole, nous allons divisé une ferme en trois parties, afin de faciliter les calculs. Les différentes parties seront notées comme suit:
 
@@ -25,7 +26,7 @@ Nous cherchons à sommer tous les flux entrants et à les diviser par tout les f
 - Animal = B
 - Ferme = C
 
-Chaque partie à des intrants et sortants, indiqué par un poids (tonne ou kg) que nous allons multiplier par leur valeur énergétique brute. Cf Tableau "Tables des compositions élémentaires" sur le drive 14-Espace travail des stagiaires → André→ Indicateurs→ Tables
+Chaque partie à des intrants et sortants, indiqué par un poids (tonne ou kg) que nous allons multiplier par leur valeur énergétique brute. 
 
 **Partie A**:
 
@@ -80,19 +81,22 @@ Somme (Production d’énergie électrique (en kWh/an)*coef de l’énergie éle
 
 Energies directes : Somme (Fioul domestique + Gazoil d’ETA) (en L)_coef Fioul (en MJ/L) +Essence(en L) _ coef Essence (en MJ/L)+ Compteurs Electrique (en mWh) + Gaz (en M3)\*Coef gaz (en MJ Autres (unité au choix))
 
--> On réalise une somme de toutes les Productions, en faisant attention aux unités et leurs compatibilités
+-> On réalise une somme de toutes les Productions, en faisant attention aux unités et leurs compatibilités.
 
---
 
-## D’où proviennent les données ?
+## Unité et valeurs sur la boussole
 
-Les données du 1° sont renseignées par l'agriculteur ou l'agronome.
+Unité : Energie Brute en Gcal
 
-- Min : 1 on considère que le plancher est de produire autant que ce qui est utilisé pour la production
-- Max : 10 On considère qu'un bon objectif est d'être capable de produire 10 fois plus d'énergie qui a été consommé
+- Min : 1, on considère que le plancher est de produire autant que ce qui est utilisé pour la production
+- Max : 10, on considère qu'un bon objectif est d'être capable de produire 10 fois plus d'énergie qui a été consommé
+  
+## Données nécessaires de l'agriculteur
 
----
+Les données d'itinéaires techniques, rendement et consommations et productions d'énergie de la ferme.
 
-## {% compass quarter="nw" inline="true" /%} Dans la boussole
+## Références 
 
-Nous noterons la note en % sur le « radar », allant de 1 à 10.
+Jean-Marc Ferrière et al., « L'analyse énergétique à l'échelle de l'exploitation agricole. Méthodes, apports et limites. », Fourrages n°151,‎ 1997, pp 331-350.
+Référentiel pour l’analyse énergétique de l’exploitation agricole et son pouvoir global de réchauffement global, Planète février 2002
+
