@@ -1,6 +1,6 @@
 ---
 title: Fragmentation spatiale
-description: Objectif de biodiversité et objectif de rentabilité à correler
+description: Taille des parcelles
 ---
 
 ## A propos de l'indicateur
@@ -9,7 +9,7 @@ En terres cultivable de pleins champs, la biodiversité se développe plus facil
 
 ## Mode de calcul
 
-Le calcul est exprimé en %
+Le calcul est exprimé en %.
 
 Avec:
 
@@ -23,12 +23,12 @@ Avec:
 
 Unité : Pourcentage de la {% def word="SAU" /%} en parcelles de plus de 8ha.
 
-- Min = 80% 
-- Max = 10%
+- Min = 80 % 
+- Max = 10 %
 
 ## Données nécessaire de l'agriculteur
 
-La taille des parcelles est nécessaire pour calculer cet indicateur
+La taille des parcelles est nécessaire pour calculer cet indicateur.
 
 ## Exemple
 
