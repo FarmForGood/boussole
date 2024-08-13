@@ -75,7 +75,7 @@ Les seuils sont les suivants :
 ---
 ## Unité et valeur sur la boussole
 
-Unité Score de 1 à 5
+Unité : Score de 1 à 5
 
 - Min = 1, très défavorable
 - Max = 5, très favorable
