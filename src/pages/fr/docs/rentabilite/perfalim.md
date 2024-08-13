@@ -6,7 +6,7 @@ description: Performance alimentaire
 
 Cet indicateur va décrire la performance alimentaire de la culture, de l’élevage et de l’exploitation, soit le nombre maximum de personnes nourries par hectare sur l’exploitation annuellement. Cet indicateur vise à rappeler la fonction première de l’agriculture : nourrir les hommes.
 
-## Comment est-ce calculé ?
+## Mode de calcul
 
 Avec:
 
