@@ -41,7 +41,7 @@ Unité: €/ha de SAU
 - Valeur Médiane = **1139€/ha** de SAU = 70% de la Boussole
 - Max = à partir de **1449€/ha** de SAU= 100% de la Boussole
   
-## Données nécessaire de l'agrilculteur
+## Données nécessaires de l'agrilculteur
 
 L'ensemble des coûts et produits de chaque culture sont nécessaires. 
 
