@@ -1,19 +1,31 @@
 ---
 title: Diversité des espèces
-description: valoriser l'augmentation du nombre d'espèces, pour répondres aux enjeux agronomique de la maximisation/intensification végétale
+description: Nombre total d'espèces cultivées (culture et couvert) sur l'exploitation
 ---
 
 ## A propos de l'indicateur
 
-Le but de l’indicateur est de noter la diversité de plante cultivées sur la ferme. Il donne une information sur l'agrobio La note cherche à valoriser l'augmentation du nombre d'espèces, pour répondres aux enjeux agronomique de la maximisation/intensification végétale. Les prairies permanentes sont noté arbitrairement à 7 espèces. les prairies temporaires, comme les couverts sont comptabilisé en fonction du nombre d'espèces semées. Volontairement ce biais est conscient (toutes les graines semées ne pousserons peut-etre pas) mais nous encourageons la démarche. Les cultures principales sont compté au nombre d'espèce semée.
+Le but de l’indicateur est de noter la diversité de plantes cultivées sur la ferme. Il donne une information sur l'agrobiodiversité de la ferme.
 
----
+La note cherche à valoriser l'augmentation du nombre d'espèces, pour répondres aux enjeux agronomique de la maximisation/intensification végétale. Les prairies permanentes sont noté arbitrairement à 7 espèces. Volontairement ce biais est conscient (toutes les graines semées ne pousserons peut-etre pas) mais nous encourageons la démarche. Les cultures principales et couverts sont compté au nombre d'espèce semée.
 
 ## Mode de calcul
 
 On calcul le nombre de plantes cultivées représentant + de 5% de la SAU (le +5% de la SAU est pour justifier le minimum requis de surface pour une plante cultivé).
 
 **Calcul :** (Somme des espèces semés qui : 1ère condition ->représentent plus de 10% dans la culture semé PUIS 2°-> la culture doit représenter en surface + de 5% de la SAU)
+
+## Unnité et valeurs sur la boussole
+
+unité : nombre de cultures
+
+- Min = 10
+- Max = 20
+
+
+## Données nécessaires de l'agriculteur
+
+Les espèces de cultures et de couverts sont nécessaires.
 
 ## Exemple de calcul
 
@@ -84,16 +96,7 @@ Total de la diversité de culture de l'exploitation "B": 14
 
 Total de la diversité de culture de l'exploitation "C": 7
 
-## Qui nous donne la donnée
-
-- Les données du 1° sont renseignées par l'agriculteur ou l'agronome, et concerne les espèces semée dans une parcelle = une seule culture multi espèce, on regarde le % de chaque espèce dans cette culture.
-- Les données du 2° sont renseignées par l'agri ou l'agronome, et concerne la proportion que représente une parcelle dans l'ensemble de la ferme
-
-## Dans la boussole
-
-Nous noterons la note sur le « radar » en pourcentage, elle sera proportionnelle au minimum (10)= 0% (sur le radar) et au maximum (20) = 100% (sur le radar)
-
-## Bibliographie
+## Références
 
 [Science Direct](https://www.sciencedirect.com/science/article/abs/pii/S1161030110000638?via%3Dihub)
 
