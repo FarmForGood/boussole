@@ -35,7 +35,7 @@ Unité : Le calcul est exprimé en % des hectares en bio ou en conversion
   
 ## Données nécessaires de l'agriculteur
 
-Les données Surface déclaré en AB + Surface en transition vers l’AB + SAU Totale sont à renseigner par l’agriculteur.
+Les données de surfaces déclarées en AB, surfaces en transition vers l’AB ainsi que la SAU totale sont à renseigner par l’agriculteur.
 
 
 ## Références
