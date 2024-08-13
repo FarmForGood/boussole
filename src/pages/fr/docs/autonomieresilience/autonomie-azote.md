@@ -1,6 +1,6 @@
 ---
 title: Autonomie en Azote
-description: Autonomie en Azote.
+description: Autonomie en Azote pour les cultures de l'exploitation
 ---
 
 ## A propos de l'indicateur
@@ -17,14 +17,13 @@ Barème décroissant :
 
 {% math expression="Autonomie\\,en\\,N = \\frac {\\sum Azote\\,Local} {\\sum Azote\\,Total}" p="6" /%}
 
-## Unité et valeurs sur la boussol
+## Unité et valeurs sur la boussole
 
 Unité : % de Kilos d'Azote par hectare
 
 - Min = 0% pour une ferme qui n’utiliserait qu’une fertilisation exogène lointaine
 - Max = 100% autonome complètement grâce aux couverts, aux légumineuses et à ses interactions avec l’élevage pour une fertilisation de proximité.
 
----
 
 ## Données nécessaire de l'agriculteur
 
