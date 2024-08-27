@@ -19,7 +19,7 @@ Avec:
 - _CP_: Charges proportionnelles
 - _marge_brute_: Marge Brute
 
-{% math expression="marge brute = CAM - CP"}
+{% math expression="marge brute = CAM - CP" /%}
 
 Avec:
 
