@@ -2,7 +2,7 @@
 
 Based on a TailwindUI template, hosted on [Vercel](https://vercel.com/vanakenm/boussole).
 
-Deploy happens on any push on <pre>main</pre>
+Deploy happens on any push on <pre>main</pre> (or any branch)
 
 # Syntax
 
